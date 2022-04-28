@@ -1,6 +1,6 @@
 {
   "name": "lod-plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Front end utility function tool library written with TypeScript",
   "main": "index.ts",
   "keywords": [
