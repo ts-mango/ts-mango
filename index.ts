@@ -5,15 +5,27 @@ import { removeStorage } from './removeStorage'
 import { uniqueArray } from './uniqueArray'
 import { witTenNum } from './witTenNum'
 import { randomNum } from './randomNum'
+import { mergeArrayRepeat } from './mergeArrayRepeat'
+import { pastTime } from './pastTime'
+import { toDates } from './toDates'
+import { shallowClone } from './shallowClone'
+import { randomString } from './randomString'
+import { keepDecimalPoint } from './keepDecimalPoint'
 
-const TsMango = {
+const TsMango: object = {
   debounce,
   setStorage,
   getStorage,
   removeStorage,
   uniqueArray,
   witTenNum,
-  randomNum
+  randomNum,
+  mergeArrayRepeat,
+  pastTime,
+  toDates,
+  shallowClone,
+  randomString,
+  keepDecimalPoint
 }
 
 export {
@@ -23,7 +35,13 @@ export {
   removeStorage,
   uniqueArray,
   witTenNum,
-  randomNum
+  randomNum,
+  mergeArrayRepeat,
+  pastTime,
+  toDates,
+  shallowClone,
+  randomString,
+  keepDecimalPoint
 }
 
 export default TsMango
