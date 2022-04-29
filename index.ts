@@ -1,3 +1,4 @@
+import { version } from './package.json'
 import { debounce } from './debounce'
 import { setStorage } from './setStorage'
 import { getStorage } from './getStorage'
@@ -14,6 +15,7 @@ import { keepDecimalPoint } from './keepDecimalPoint'
 import { throttle } from './throttle'
 
 const TsMango: object = {
+  version,
   debounce,
   setStorage,
   getStorage,
