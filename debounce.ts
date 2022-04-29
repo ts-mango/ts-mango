@@ -4,14 +4,12 @@
  * @param delay 时间
  * @returns 
  */
-export const debounce = (fn: Function, delay: number = 200) => {
+export const debounce = (fn: Function, time: number = 200): Function => {
   let timer: any = null
   return function () {
-    const args = arguments
-    const that = this
-    clearTimeout(timer)
+    if (timer) clearTimeout(timer)
     timer = setTimeout(() => {
-      fn.apply(that, args)
-    }, delay)
+      fn()
+    }, time)
   }
 }
