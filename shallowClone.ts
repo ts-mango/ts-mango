@@ -1,6 +1,6 @@
 /**
  * 浅克隆
- * @param { object } obj 需要克隆的对象
+ * @param obj 需要克隆的对象
  * @returns 克隆好的新对象
  */
 export const shallowClone = (obj: object): object => {

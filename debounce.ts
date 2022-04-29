@@ -2,7 +2,7 @@
  * 防抖
  * @param fn 回调函数
  * @param delay 时间
- * @returns 
+ * @returns function
  */
 export const debounce = (fn: Function, time: number = 200): Function => {
   let timer: any = null

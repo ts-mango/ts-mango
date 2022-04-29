@@ -1,6 +1,6 @@
 /**
  * 计算从一个时间到现在过去多久
- * @param { string } time 开始时间 格式为：'2021-01-28 00:00'
+ * @param time 开始时间 格式为：'2021-01-28 00:00'
  * @returns xx天xx小时xx分钟xx秒
  */
 export const pastTime = (time: string): string => {

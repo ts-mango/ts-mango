@@ -1,6 +1,6 @@
 /**
  * 将时间戳转换为真正的时间格式
- * @param { string } times 时间戳
+ * @param times 时间戳
  * @returns xxxx年 xx月 xx日 xx时 xx分 xx秒
  */
 export const toDates = (times: string): string => {
