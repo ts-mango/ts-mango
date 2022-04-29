@@ -11,6 +11,7 @@ import { toDates } from './toDates'
 import { shallowClone } from './shallowClone'
 import { randomString } from './randomString'
 import { keepDecimalPoint } from './keepDecimalPoint'
+import { throttle } from './throttle'
 
 const TsMango: object = {
   debounce,
@@ -25,7 +26,8 @@ const TsMango: object = {
   toDates,
   shallowClone,
   randomString,
-  keepDecimalPoint
+  keepDecimalPoint,
+  throttle
 }
 
 export {
@@ -41,7 +43,8 @@ export {
   toDates,
   shallowClone,
   randomString,
-  keepDecimalPoint
+  keepDecimalPoint,
+  throttle
 }
 
 export default TsMango
