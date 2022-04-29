@@ -1,5 +1,43 @@
-# Lod Plus
+# TsMango
 
-使用 TypeScript 编写的前端实用函数工具库
+## Introduce
 
-2022-04-28 创建
+This is a multifunctional mango.
+
+TsMango is a utility function library written in typescript.
+
+## Download
+
+Npm
+
+```shell
+npm i tsmango
+```
+
+Yarn
+
+```shell
+yarn add tsmango
+```
+
+In vue.js
+
+```ts
+// Complete introduction
+import TsMango from 'tsmango'
+TsMango.randomNum()
+
+// Import in as needed
+import { randomNum } from 'tsmango'
+randomNum()
+```
+
+## Why TsMango?
+
+- :fire: Use TypeScript
+- :bell: Strong type
+- :white_check_mark: Import in as needed
+- :heavy_check_mark: Strict verification
+- :muscle: Robust code
+- :triangular_flag_on_post: Multi function
+- :rocket: Improve development efficiency

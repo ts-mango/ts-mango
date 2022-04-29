@@ -1,11 +1,11 @@
 {
-  "name": "lod-plus",
-  "version": "1.0.1",
-  "description": "Front end utility function tool library written with TypeScript",
+  "name": "tsmango",
+  "version": "1.0.0",
+  "description": "TsMango is a utility function library written in typescript",
   "main": "index.ts",
   "keywords": [
     "utils",
-    "lod-plus",
+    "TsMango",
     "TypeScript"
   ],
   "author": {
@@ -14,8 +14,8 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tyh2001/lod-plus/issues"
+    "url": "https://github.com/Tyh2001/TsMango/issues"
   },
-  "homepage": "https://github.com/Tyh2001/lod-plus",
-  "repository": "https://github.com/Tyh2001/lod-plus"
+  "homepage": "https://github.com/Tyh2001/TsMango",
+  "repository": "https://github.com/Tyh2001/TsMango"
 }

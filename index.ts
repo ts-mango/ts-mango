@@ -6,7 +6,7 @@ import { uniqueArray } from './uniqueArray'
 import { witTenNum } from './witTenNum'
 import { randomNum } from './randomNum'
 
-const LodPlus = {
+const TsMango = {
   debounce,
   setStorage,
   getStorage,
@@ -26,4 +26,4 @@ export {
   randomNum
 }
 
-export default LodPlus
+export default TsMango
