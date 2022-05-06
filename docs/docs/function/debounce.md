@@ -17,4 +17,4 @@ import { debounce } from 'tsmango
 
 ## 返回
 
-Function
+`Function`

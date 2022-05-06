@@ -16,4 +16,4 @@ import { deepClone } from 'tsmango
 
 ## 返回
 
-object | any[]
+`object | any[]`
