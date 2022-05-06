@@ -35,6 +35,8 @@ export const sidebar = [
     text: '杂项',
     children: [
       { text: '获取本地存储', link: '/other/getStorage' },
+      { text: '删除本地存储', link: '/other/removeStorage' },
+      { text: '添加本地存储', link: '/other/setStorage' },
     ]
   }
 ]
