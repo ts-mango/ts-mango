@@ -10,6 +10,7 @@ export const sidebar = [
     text: '数字',
     children: [
       { text: '保留小数点 n 位', link: '/number/keepDecimal' },
+      { text: '指定范围随机数', link: '/number/randomNum' },
     ]
   },
   {
