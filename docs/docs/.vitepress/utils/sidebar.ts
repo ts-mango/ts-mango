@@ -7,6 +7,12 @@ export const sidebar = [
     ]
   },
   {
+    text: '字符串',
+    children: [
+      { text: '随机字符串', link: '/string/randomString' },
+    ]
+  },
+  {
     text: '数字',
     children: [
       { text: '保留小数点 n 位', link: '/number/keepDecimal' },
