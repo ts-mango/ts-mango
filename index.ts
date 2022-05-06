@@ -11,7 +11,7 @@ import { pastTime } from './pastTime'
 import { toDates } from './toDates'
 import { shallowClone } from './shallowClone'
 import { randomString } from './randomString'
-import { keepDecimalPoint } from './keepDecimalPoint'
+import { keepDecimal } from './keepDecimal'
 import { throttle } from './throttle'
 
 const TsMango: object = {

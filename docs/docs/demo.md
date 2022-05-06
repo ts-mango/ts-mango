@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import {  } from 'tsmango
+import {  } from 'tsmango'
 ```
 
 ## 介绍

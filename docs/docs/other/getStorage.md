@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { getStorage } from 'tsmango
+import { getStorage } from 'tsmango'
 ```
 
 ## 介绍

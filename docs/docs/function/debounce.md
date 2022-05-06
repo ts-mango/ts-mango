@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { debounce } from 'tsmango
+import { debounce } from 'tsmango'
 ```
 
 ## 介绍

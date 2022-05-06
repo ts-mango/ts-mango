@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { deepClone } from 'tsmango
+import { deepClone } from 'tsmango'
 ```
 
 ## 介绍
