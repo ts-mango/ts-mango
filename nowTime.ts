@@ -3,8 +3,8 @@
  * @param times 时间戳
  * @returns xxxx年 xx月 xx日 xx时 xx分 xx秒
  */
-export const toDates = (times: string): string => {
-  const date: Date = new Date(parseInt(times))
+export const nowTime = (times: string | number): string => {
+  const date: Date = new Date(parseInt(times.toString()))
   const Y: number = date.getFullYear()
   const M: string | number = date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1
   const D: string | number = date.getDate() < 10 ? '0' + date.getDate() : date.getDate()

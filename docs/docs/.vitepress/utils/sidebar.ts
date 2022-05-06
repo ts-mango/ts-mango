@@ -26,6 +26,12 @@ export const sidebar = [
     ]
   },
   {
+    text: '对象',
+    children: [
+      { text: '对象浅克隆', link: '/object/shallowClone' },
+    ]
+  },
+  {
     text: '时间',
     children: [
       { text: '计算时间过去多久', link: '/time/pastTime' },

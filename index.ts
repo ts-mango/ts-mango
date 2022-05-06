@@ -8,7 +8,7 @@ import { witTenNum } from './witTenNum'
 import { randomNum } from './randomNum'
 import { mergeArrayRepeat } from './mergeArrayRepeat'
 import { pastTime } from './pastTime'
-import { toDates } from './toDates'
+import { nowTime } from './nowTime'
 import { shallowClone } from './shallowClone'
 import { randomString } from './randomString'
 import { keepDecimal } from './keepDecimal'
@@ -25,10 +25,10 @@ const TsMango: object = {
   randomNum,
   mergeArrayRepeat,
   pastTime,
-  toDates,
+  nowTime,
   shallowClone,
   randomString,
-  keepDecimalPoint,
+  keepDecimal,
   throttle
 }
 
@@ -42,10 +42,10 @@ export {
   randomNum,
   mergeArrayRepeat,
   pastTime,
-  toDates,
+  nowTime,
   shallowClone,
   randomString,
-  keepDecimalPoint,
+  keepDecimal,
   throttle
 }
 
