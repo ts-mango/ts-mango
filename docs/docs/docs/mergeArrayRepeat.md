@@ -12,7 +12,7 @@ import { mergeArrayRepeat } from 'tsmango'
 
 ## 参数
 
-1. `...target: any[]`：数组元素
+- `...target: any[]`：数组元素
 
 ## 返回
 

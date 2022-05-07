@@ -12,8 +12,8 @@ import { randomNum } from 'tsmango'
 
 ## 参数
 
-1. `max: number`：随机数范围的最大值
-2. `min: number`：随机数范围的最小值
+- `max: number`：随机数范围的最大值
+- `min: number`：随机数范围的最小值
 
 ## 返回
 

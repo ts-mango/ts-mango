@@ -12,8 +12,8 @@ import { randomString } from 'tsmango'
 
 ## 参数
 
-1. `length: number`：指定位数
-2. `chars?: string`：随机的指定字符
+- `length: number`：指定位数
+- `chars?: string`：随机的指定字符
 
 如果不传递 `chars` 参数，则默认为：`0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
 

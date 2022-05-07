@@ -10,6 +10,10 @@ import { witTenNum } from 'tsmango'
 
 `witTenNum` 可以获取 `0-9` 随机数
 
+## 参数
+
+无需参数
+
 ## 返回
 
 `number`

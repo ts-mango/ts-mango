@@ -60,6 +60,8 @@ import { randomNum } from 'tsmango'
 randomNum()
 ```
 
+<br /><br /><br />
+
 <style second>
 button {
   width: 120px;

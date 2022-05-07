@@ -12,7 +12,7 @@ import { getStorage } from 'tsmango'
 
 ## 参数
 
-1. `name: string`：本地存储名称
+- `name: string`：本地存储名称
 
 ## 返回
 

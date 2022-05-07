@@ -12,8 +12,8 @@ import { keepDecimal } from 'tsmango'
 
 ## 参数
 
-1. `num: number`：带有小数的数字
-2. `no: number = 2`：保留位数
+- `num: number`：带有小数的数字
+- `no: number = 2`：保留位数
 
 ## 返回
 
