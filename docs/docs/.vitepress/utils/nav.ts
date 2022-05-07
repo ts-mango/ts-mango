@@ -1,12 +1,12 @@
 export const nav = [
   {
     text: '首页',
-    activeMatch: `/`,
+    activeMatch: '/',
     link: '/'
   },
   {
     text: '文档',
-    activeMatch: `^/docs/`,
+    activeMatch: '^/docs/',
     link: '/docs/introduce'
-  },
+  }
 ]
