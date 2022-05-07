@@ -9,6 +9,15 @@ home: true
   <h2 align="center" style="font-weight: 600">TsMango</h2>
 </p>
 
+<p align="center">
+  <a href="/mango/docs/introduce.html">
+    <button class="start">Start using</button>
+  </a>
+  <a href="https://github.com/Tyh2001/TsMango" target="_back">
+    <button>Github</button>
+  </a>
+</p>
+
 ## Introduce
 
 This is a multifunctional mango.
@@ -50,3 +59,29 @@ TsMango.randomNum()
 import { randomNum } from 'tsmango'
 randomNum()
 ```
+
+<style second>
+button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #eee;
+  color: #333;
+  border-radius: 10px;
+}
+.start {
+  margin-right: 15px;
+  background: rgb(244, 124, 52);
+  color: #fff;
+  font-weight: 600;
+}
+button:hover {
+  opacity: .8;
+}
+
+button:active {
+  opacity: 1;
+}
+</style>
