@@ -1,5 +1,5 @@
 <template>
-  <a class="VPNavBarTitle" href="/mango">
+  <a class="VPNavBarTitle" href="/mango/index.html">
     <img class="logo" src="https://tianyuhao.cn/mango/images/mango.svg" />
     <span class="text">TsMango</span>
   </a>
