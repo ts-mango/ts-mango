@@ -1,7 +1,7 @@
 <br />
 
 <p align="center">
-  <img height="160px" src="https://tianyuhao.cn/mango/images/mango.png">
+  <img height="160px" src="https://tianyuhao.cn/mango/images/mango.svg">
   <h2 align="center" style="font-weight: 600">TsMango</h2>
 </p>
 
