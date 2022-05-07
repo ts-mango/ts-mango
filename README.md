@@ -35,6 +35,8 @@ Yarn
 yarn add tsmango
 ```
 
+## Use
+
 In vue.js
 
 ```ts

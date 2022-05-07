@@ -1,9 +1,17 @@
 ---
 title: TsMango
 sidebar: false
-home: true
+page: true
 ---
 
+<Home />
+
+<script setup>
+import Home from '/@theme/Home.vue'
+</script>
+
+
+<!-- 
 <p align="center">
   <img width="160px" src="https://tianyuhao.cn/mango/images/mango.svg">
   <h2 align="center" style="font-weight: 600">TsMango</h2>
@@ -84,4 +92,4 @@ button:hover {
 button:active {
   opacity: 1;
 }
-</style>
+</style> -->
