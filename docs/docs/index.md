@@ -1,6 +1,7 @@
 ---
-sidebar: false
 title: TsMango
+sidebar: false
+home: true
 ---
 
 <p align="center">
@@ -58,8 +59,6 @@ TsMango.randomNum()
 import { randomNum } from 'tsmango'
 randomNum()
 ```
-
-<br />
 
 <style second>
 button {
