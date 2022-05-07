@@ -30,7 +30,6 @@ import VPNavBarAppearance from './VPNavBarAppearance.vue'
 import VPNavBarSocialLinks from './VPNavBarSocialLinks.vue'
 import VPNavBarExtra from './VPNavBarExtra.vue'
 import VPNavBarHamburger from './VPNavBarHamburger.vue'
-// import VPNavBarSearch from './VPNavBarSearch.vue'
 
 defineProps<{
   isScreenOpen: boolean
@@ -40,11 +39,11 @@ defineProps<{
 <style scoped>
 .VPNavBar {
   position: relative;
-  border-bottom: 1px solid var(--vt-c-divider-light);
   padding: 0 12px 0 24px;
   height: var(--vt-nav-height);
   background-color: var(--vt-c-bg);
   transition: border-color 0.5s, background-color 0.5s;
+  user-select: none;
 }
 
 @media (min-width: 768px) {

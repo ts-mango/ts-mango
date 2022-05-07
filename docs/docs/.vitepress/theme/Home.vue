@@ -41,6 +41,7 @@
   }
   img {
     width: 160px;
+    user-select: none;
   }
   .title {
     font-size: 25px;
@@ -48,6 +49,7 @@
     text-align: center;
     line-height: 70px;
     margin-bottom: 20px;
+    user-select: none;
   }
   button {
     width: 120px;
@@ -59,6 +61,7 @@
     color: #333;
     border-radius: 10px;
     margin-bottom: 30px;
+    user-select: none;
   }
   .start {
     margin-right: 15px;
