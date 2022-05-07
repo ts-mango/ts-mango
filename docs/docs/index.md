@@ -3,10 +3,8 @@ sidebar: false
 title: TsMango
 ---
 
-<br />
-
 <p align="center">
-  <img width="160px" src="https://tianyuhao.cn/mango/images/mango.png">
+  <img width="160px" src="https://tianyuhao.cn/mango/images/mango.svg">
   <h2 align="center" style="font-weight: 600">TsMango</h2>
 </p>
 
@@ -61,7 +59,7 @@ import { randomNum } from 'tsmango'
 randomNum()
 ```
 
-<br /><br /><br />
+<br />
 
 <style second>
 button {

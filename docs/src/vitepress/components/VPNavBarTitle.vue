@@ -1,6 +1,6 @@
 <template>
   <a class="VPNavBarTitle" href="/">
-    <img class="logo" src="https://tianyuhao.cn/mango/images/mango.png" />
+    <img class="logo" src="https://tianyuhao.cn/mango/images/mango.svg" />
     <span class="text">TsMango</span>
   </a>
 </template>

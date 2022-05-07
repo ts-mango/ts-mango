@@ -18,13 +18,13 @@ export default (async () => {
     title: 'TsMango',
     base: '/mango/',
     head: [
-      ['link', { rel: 'icon', href: 'https://tianyuhao.cn/mango/images/mango.png' }]
+      ['link', { rel: 'icon', href: 'https://tianyuhao.cn/mango/images/mango.svg' }]
     ],
     description: 'TsMango 是一个用 typescript 编写的实用函数库。（TsMango is a utility function library written in typescript.）',
     themeConfig: {
       nav,
       sidebar,
-      logo: 'https://tianyuhao.cn/mango/images/mango.png'
+      logo: 'https://tianyuhao.cn/mango/images/mango.svg'
     }
   }
 })()
