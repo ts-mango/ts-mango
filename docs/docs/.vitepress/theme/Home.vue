@@ -38,6 +38,8 @@
     max-width: 620px;
     margin: 40px auto;
     box-sizing: border-box;
+    padding: 40px;
+    padding-bottom: 0;
   }
   img {
     width: 160px;
@@ -77,7 +79,7 @@
     opacity: 1;
   }
   .box {
-    padding: 40px;
+    padding: 40px 0;
     border-top: 1px solid rgb(224, 224, 224);
     box-sizing: border-box;
   }
