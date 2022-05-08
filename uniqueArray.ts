@@ -7,7 +7,7 @@ export const uniqueArray = (arr: any[]): any[] => {
   if (!Array.isArray(arr)) {
     throw new Error('Parameter is not an array')
   }
-  if (arr.length == 1) {
+  if (arr.length === 1) {
     return arr
   }
   return [...new Set(arr)]

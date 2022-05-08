@@ -19,3 +19,15 @@ import { mergeArrayRepeat } from 'tsmango'
 `any[]`
 
 返回新数组，不会改变原数组
+
+## 例子
+
+```ts
+import { mergeArrayRepeat } from 'tsmango'
+
+const arr = [1, 2, 3]
+const arr2 = [1, 1, '2', '2', 'mango']
+
+const res = mergeArrayRepeat(arr, arr2) // [1, 2, 3, '2', 'mango']
+console.log(res)
+```

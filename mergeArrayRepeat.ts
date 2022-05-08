@@ -5,7 +5,8 @@
  * @returns 将多个数组合并后并去重
  */
 export const mergeArrayRepeat = (...target: any[]): any[] => {
-  const res = []
+  if (target.length === 0) []
+  const res: any[] = []
   for (const arr of target) {
     res.push(...arr)
   }

@@ -8,7 +8,7 @@ import { uniqueArray } from 'tsmango'
 
 ## 介绍
 
-`uniqueArray` 可以将数组进行去重
+`uniqueArray` 可以去除数组中重复的元素
 
 ## 参数
 
@@ -17,3 +17,12 @@ import { uniqueArray } from 'tsmango'
 ## 返回
 
 `arr: any[]`
+
+## 例子
+
+```ts
+import { uniqueArray } from 'tsmango'
+
+const res = uniqueArray([1, 1, '2', '2', 'mango'])
+console.log(res) // [1, '2', 'mango']
+```

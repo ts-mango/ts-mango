@@ -4,7 +4,7 @@
     "dev": "vite"
   },
   "dependencies": {
-    "lod-plus": "^1.0.1",
+    "tsmango": "^1.0.2",
     "vue": "^3.2.25"
   },
   "devDependencies": {
