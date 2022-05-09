@@ -2,8 +2,11 @@
 
 <script lang="ts" setup>
 // import TsMango from '../../index'
-import { isType } from '../../index'
+import { isNull } from '../../index'
 
-console.log(isType([], 'Array')) // false
-console.log(isType(123, 'Number')) // true
+let a
+let b = null
+
+console.log(isNull(a)) // false
+console.log(isNull(b)) // true
 </script>
