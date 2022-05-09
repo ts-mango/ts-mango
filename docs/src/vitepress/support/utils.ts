@@ -35,14 +35,37 @@ if (inBrowser) {
 
 export function isActive(
   currentPath: string,
-  matchPath: string
+  matchPath?: string,
+  asRegex = false
 ): boolean {
-  
-  if (`${matchPath}.html` === window.location.pathname) {
+  if (matchPath === undefined) {
+    return false
+  }
+  currentPath = normalize(`/${currentPath}`)
+  if (asRegex) {
+    return new RegExp(matchPath).test(currentPath)
+  } else {
+    if (normalize(matchPath) !== currentPath) {
+      return false
+    }
+    const hashMatch = matchPath.match(hashRE)
+    if (hashMatch) {
+      return hashRef.value === hashMatch[0]
+    }
     return true
   }
-  return false
 }
+
+// export function isActive(
+//   currentPath: string,
+//   matchPath: string
+// ): boolean {
+
+//   if (`${matchPath}.html` === win.location.pathname) {
+//     return true
+//   }
+//   return false
+// }
 
 export function normalize(path: string): string {
   return decodeURI(path).replace(hashRE, '').replace(extRE, '')

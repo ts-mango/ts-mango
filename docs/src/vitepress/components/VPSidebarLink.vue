@@ -12,7 +12,8 @@
   import { useData } from 'vitepress'
   import { inject } from 'vue'
   import { MenuItemWithLink } from '../../core'
-  import { isActive } from '../support/utils'
+  // import { isActive } from '../support/utils'
+  import { isActive } from '../support/isActive'
 
   defineProps<{
     item: MenuItemWithLink
