@@ -1,6 +1,6 @@
 {
   "name": "tsmango",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TsMango is a utility function library written in typescript",
   "main": "index.ts",
   "keywords": [
@@ -16,6 +16,6 @@
   "bugs": {
     "url": "https://github.com/Tyh2001/TsMango/issues"
   },
-  "homepage": "https://github.com/Tyh2001/TsMango",
+  "homepage": "https://tianyuhao.cn/mango",
   "repository": "https://github.com/Tyh2001/TsMango"
 }
