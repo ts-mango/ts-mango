@@ -23,5 +23,5 @@ import { witTenNum } from 'tsmango'
 ```ts
 import { witTenNum } from 'tsmango'
 
-console.log(witTenNum())
+console.log(witTenNum()) // 2
 ```
