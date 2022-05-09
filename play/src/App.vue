@@ -1,9 +1,10 @@
 <template></template>
 
 <script lang="ts" setup>
-// import TsMango from '../../index'
-import { witTenNum } from '../../index'
+import TsMango from '../../index'
+import { setStorage } from '../../index'
 
-console.log(witTenNum()) // 12
+console.log(setStorage) // 12
+console.log(TsMango) // 12
 // console.log(keepDecimal({})) // true
 </script>
