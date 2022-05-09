@@ -14,6 +14,7 @@ import { randomString } from './randomString'
 import { keepDecimal } from './keepDecimal'
 import { throttle } from './throttle'
 import { isType } from './isType'
+import { isNull } from './isNull'
 
 const TsMango = {
   version,
@@ -31,7 +32,8 @@ const TsMango = {
   randomString,
   keepDecimal,
   throttle,
-  isType
+  isType,
+  isNull
 } as const
 
 export {
@@ -49,7 +51,8 @@ export {
   randomString,
   keepDecimal,
   throttle,
-  isType
+  isType,
+  isNull
 }
 
 export default TsMango

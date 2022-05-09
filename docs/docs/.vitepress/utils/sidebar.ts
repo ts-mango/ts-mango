@@ -94,6 +94,14 @@ export const sidebar = {
       ]
     },
     {
+      text: '类型',
+      link: '/mango/docs/isType',
+      items: [
+        { text: '检测数据类型', link: '/mango/docs/isType' },
+        { text: '判断一个值是否是 null', link: '/mango/docs/isNull' },
+      ]
+    },
+    {
       text: '时间',
       link: '/mango/docs/pastTime',
       items: [
