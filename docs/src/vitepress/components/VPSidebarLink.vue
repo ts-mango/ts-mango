@@ -19,6 +19,14 @@
   }>()
 
   const { page } = useData()
+
+  // const isActiveShow = () => {
+  //   if (`${props.item.link}.html` === window.location.pathname) {
+  //     return true
+  //   }
+  //   return false
+  // }
+
   const closeSideBar = inject('close-sidebar') as () => void
 </script>
 

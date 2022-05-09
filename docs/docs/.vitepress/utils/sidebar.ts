@@ -1,121 +1,70 @@
-// export const sidebar = [
-//   {
-//     text: '数组',
-//     children: [
-//       { text: '深克隆', link: '/mango/docs/deepClone' },
-//       { text: '数组去重', link: '/mango/docs/uniqueArray' },
-//       { text: '合并并去重', link: '/mango/docs/mergeArrayRepeat' },
-//     ]
-//   },
-//   {
-//     text: '字符串',
-//     children: [
-//       { text: '随机字符串', link: '/mango/docs/randomString' },
-//     ]
-//   },
-//   {
-//     text: '数字',
-//     children: [
-//       { text: '保留小数点 n 位', link: '/mango/docs/keepDecimal' },
-//       { text: '指定范围随机数', link: '/mango/docs/randomNum' },
-//       { text: '获取 0-9 随机数', link: '/mango/docs/witTenNum' },
-//     ]
-//   },
-//   {
-//     text: '函数',
-//     children: [
-//       { text: '防抖', link: '/mango/docs/debounce' },
-//       { text: '节流', link: '/mango/docs/throttle' },
-//     ]
-//   },
-//   {
-//     text: '对象',
-//     children: [
-//       { text: '对象浅克隆', link: '/mango/docs/shallowClone' },
-//     ]
-//   },
-//   {
-//     text: '时间',
-//     children: [
-//       { text: '计算时间过去多久', link: '/mango/docs/pastTime' },
-//       { text: '将时间戳转换为正常的时间', link: '/mango/docs/nowTime' },
-//     ]
-//   },
-//   {
-//     text: '杂项',
-//     children: [
-//       { text: '获取本地存储', link: '/mango/docs/getStorage' },
-//       { text: '删除本地存储', link: '/mango/docs/removeStorage' },
-//       { text: '添加本地存储', link: '/mango/docs/setStorage' },
-//     ]
-//   }
-// ]
+const base = '/mango/'
 
 export const sidebar = {
   '/docs/': [
     {
       text: '数字',
-      link: '/mango/docs/keepDecimal',
+      link: `${base}docs/keepDecimal`,
       items: [
-        { text: '保留小数点 n 位', link: '/mango/docs/keepDecimal' },
-        { text: '指定范围随机数', link: '/mango/docs/randomNum' },
-        { text: '获取 0-9 随机数', link: '/mango/docs/witTenNum' },
+        { text: '保留小数点 n 位', link: `${base}docs/keepDecimal` },
+        { text: '指定范围随机数', link: `${base}docs/randomNum` },
+        { text: '获取 0-9 随机数', link: `${base}docs/witTenNum` },
       ]
     },
     {
       text: '字符串',
-      link: '/mango/docs/randomString',
+      link: `${base}docs/randomString`,
       items: [
-        { text: '随机字符串', link: '/mango/docs/randomString' },
+        { text: '随机字符串', link: `${base}docs/randomString` },
       ]
     },
     {
       text: '数组',
-      link: '/mango/docs/deepClone',
+      link: `${base}docs/deepClone`,
       items: [
-        { text: '深克隆', link: '/mango/docs/deepClone' },
-        { text: '数组去重', link: '/mango/docs/uniqueArray' },
-        { text: '合并并去重', link: '/mango/docs/mergeArrayRepeat' },
+        { text: '深克隆', link: `${base}docs/deepClone` },
+        { text: '数组去重', link: `${base}docs/uniqueArray` },
+        { text: '合并并去重', link: `${base}docs/mergeArrayRepeat` },
       ]
     },
     {
       text: '对象',
-      link: '/mango/docs/shallowClone',
+      link: `${base}docs/shallowClone`,
       items: [
-        { text: '对象浅克隆', link: '/mango/docs/shallowClone' },
+        { text: '对象浅克隆', link: `${base}docs/shallowClone` },
       ]
     },
     {
       text: '函数',
-      link: '/mango/docs/debounce',
+      link: `${base}docs/debounce`,
       items: [
-        { text: '防抖', link: '/mango/docs/debounce' },
-        { text: '节流', link: '/mango/docs/throttle' },
+        { text: '防抖', link: `${base}docs/debounce` },
+        { text: '节流', link: `${base}docs/throttle` },
       ]
     },
     {
       text: '类型',
-      link: '/mango/docs/isType',
+      link: `${base}docs/isType`,
       items: [
-        { text: '检测数据类型', link: '/mango/docs/isType' },
-        { text: '判断一个值是否是 null', link: '/mango/docs/isNull' },
+        { text: '检测数据类型', link: `${base}docs/isType` },
+        { text: '判断一个值是否是 null', link: `${base}docs/isNull` },
       ]
     },
     {
       text: '时间',
-      link: '/mango/docs/pastTime',
+      link: `${base}docs/pastTime`,
       items: [
-        { text: '计算时间过去多久', link: '/mango/docs/pastTime' },
-        { text: '将时间戳转换为正常的时间', link: '/mango/docs/nowTime' },
+        { text: '计算时间过去多久', link: `${base}docs/pastTime` },
+        { text: '将时间戳转换为正常的时间', link: `${base}docs/nowTime` },
       ]
     },
     {
       text: '杂项',
-      link: '/mango/docs/getStorage',
+      link: `${base}docs/getStorage`,
       items: [
-        { text: '获取本地存储', link: '/mango/docs/getStorage' },
-        { text: '删除本地存储', link: '/mango/docs/removeStorage' },
-        { text: '添加本地存储', link: '/mango/docs/setStorage' },
+        { text: '获取本地存储', link: `${base}docs/getStorage` },
+        { text: '删除本地存储', link: `${base}docs/removeStorage` },
+        { text: '添加本地存储', link: `${base}docs/setStorage` },
       ]
     }
   ]

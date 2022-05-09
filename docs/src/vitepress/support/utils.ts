@@ -35,25 +35,13 @@ if (inBrowser) {
 
 export function isActive(
   currentPath: string,
-  matchPath?: string,
-  asRegex = false
+  matchPath: string
 ): boolean {
-  if (matchPath === undefined) {
-    return false
-  }
-  currentPath = normalize(`/${currentPath}`)
-  if (asRegex) {
-    return new RegExp(matchPath).test(currentPath)
-  } else {
-    if (normalize(matchPath) !== currentPath) {
-      return false
-    }
-    const hashMatch = matchPath.match(hashRE)
-    if (hashMatch) {
-      return hashRef.value === hashMatch[0]
-    }
+  
+  if (`${matchPath}.html` === window.location.pathname) {
     return true
   }
+  return false
 }
 
 export function normalize(path: string): string {
