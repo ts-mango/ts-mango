@@ -54,12 +54,12 @@
 export const sidebar = {
   '/docs/': [
     {
-      text: '数组',
-      link: '/mango/docs/deepClone',
+      text: '数字',
+      link: '/mango/docs/keepDecimal',
       items: [
-        { text: '深克隆', link: '/mango/docs/deepClone' },
-        { text: '数组去重', link: '/mango/docs/uniqueArray' },
-        { text: '合并并去重', link: '/mango/docs/mergeArrayRepeat' },
+        { text: '保留小数点 n 位', link: '/mango/docs/keepDecimal' },
+        { text: '指定范围随机数', link: '/mango/docs/randomNum' },
+        { text: '获取 0-9 随机数', link: '/mango/docs/witTenNum' },
       ]
     },
     {
@@ -70,12 +70,19 @@ export const sidebar = {
       ]
     },
     {
-      text: '数字',
-      link: '/mango/docs/keepDecimal',
+      text: '数组',
+      link: '/mango/docs/deepClone',
       items: [
-        { text: '保留小数点 n 位', link: '/mango/docs/keepDecimal' },
-        { text: '指定范围随机数', link: '/mango/docs/randomNum' },
-        { text: '获取 0-9 随机数', link: '/mango/docs/witTenNum' },
+        { text: '深克隆', link: '/mango/docs/deepClone' },
+        { text: '数组去重', link: '/mango/docs/uniqueArray' },
+        { text: '合并并去重', link: '/mango/docs/mergeArrayRepeat' },
+      ]
+    },
+    {
+      text: '对象',
+      link: '/mango/docs/shallowClone',
+      items: [
+        { text: '对象浅克隆', link: '/mango/docs/shallowClone' },
       ]
     },
     {
@@ -84,13 +91,6 @@ export const sidebar = {
       items: [
         { text: '防抖', link: '/mango/docs/debounce' },
         { text: '节流', link: '/mango/docs/throttle' },
-      ]
-    },
-    {
-      text: '对象',
-      link: '/mango/docs/shallowClone',
-      items: [
-        { text: '对象浅克隆', link: '/mango/docs/shallowClone' },
       ]
     },
     {

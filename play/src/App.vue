@@ -2,11 +2,8 @@
 
 <script lang="ts" setup>
 // import TsMango from '../../index'
-import { isNull } from '../../index'
+import { witTenNum } from '../../index'
 
-let a
-let b = null
-
-console.log(isNull(a)) // false
-console.log(isNull(b)) // true
+console.log(witTenNum()) // 12
+// console.log(keepDecimal({})) // true
 </script>

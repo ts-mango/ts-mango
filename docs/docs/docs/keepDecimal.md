@@ -18,3 +18,11 @@ import { keepDecimal } from 'tsmango'
 ## 返回
 
 `number`
+
+## 例子
+
+```ts
+import { keepDecimal } from 'tsmango'
+
+console.log(keepDecimal(20.12121, 2)) // 20.12
+```

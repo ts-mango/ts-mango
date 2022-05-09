@@ -17,3 +17,11 @@ import { witTenNum } from 'tsmango'
 ## 返回
 
 `number`
+
+## 例子
+
+```ts
+import { witTenNum } from 'tsmango'
+
+console.log(witTenNum())
+```
