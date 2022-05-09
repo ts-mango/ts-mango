@@ -20,3 +20,12 @@ import { randomString } from 'tsmango'
 ## 返回
 
 `string`
+
+## 例子
+
+```ts
+import { randomString } from 'tsmango'
+
+console.log(randomString(6)) // F4QLUf
+console.log(randomString(6, '-][;[..;[;.;]!@##$%&*(()))')) // &@).]&
+```

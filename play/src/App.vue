@@ -1,12 +1,9 @@
 <template></template>
 
 <script lang="ts" setup>
-  // import TsMango from '../../index'
-  import { mergeArrayRepeat } from '../../index'
+// import TsMango from '../../index'
+import { randomString } from '../../index'
 
-  const arr = [1, 2, 3]
-  const arr2 = [1, 1, '2', '2', 'mango']
-
-  const res = mergeArrayRepeat(arr, arr2) // [1, 2, 3, '2', 'mango']
-  console.log(res)
+console.log(randomString(6)) // F4QLUf
+console.log(randomString(6, '-][;[..;[;.;]\!@##$%&*(()))')) // &@).]&
 </script>

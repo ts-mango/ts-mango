@@ -14,7 +14,7 @@ import { randomString } from './randomString'
 import { keepDecimal } from './keepDecimal'
 import { throttle } from './throttle'
 
-const TsMango: object = {
+const TsMango = {
   version,
   debounce,
   setStorage,
@@ -30,7 +30,7 @@ const TsMango: object = {
   randomString,
   keepDecimal,
   throttle
-}
+} as const
 
 export {
   debounce,
