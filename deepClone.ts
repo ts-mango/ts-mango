@@ -5,7 +5,7 @@
  */
 export const deepClone = (params: object | any[]): object | any[] => {
   if (typeof params !== 'object') {
-    throw new Error('Parameter is not a object')
+    throw new Error('TsMango.deepClone: Parameter is not a object')
   }
   const res: object | [] = params instanceof Array ? [] : {}
   for (const [key, val] of Object.entries(params)) {

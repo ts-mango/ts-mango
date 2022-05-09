@@ -11,3 +11,5 @@ import {  } from 'tsmango'
 ## 参数
 
 ## 返回
+
+## 例子

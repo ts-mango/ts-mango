@@ -13,6 +13,7 @@ import { shallowClone } from './shallowClone'
 import { randomString } from './randomString'
 import { keepDecimal } from './keepDecimal'
 import { throttle } from './throttle'
+import { isType } from './isType'
 
 const TsMango = {
   version,
@@ -29,7 +30,8 @@ const TsMango = {
   shallowClone,
   randomString,
   keepDecimal,
-  throttle
+  throttle,
+  isType
 } as const
 
 export {
@@ -46,7 +48,8 @@ export {
   shallowClone,
   randomString,
   keepDecimal,
-  throttle
+  throttle,
+  isType
 }
 
 export default TsMango
