@@ -17,3 +17,11 @@ import { removeStorage } from 'tsmango'
 ## 返回
 
 `void`
+
+## 例子
+
+```ts
+import { removeStorage } from 'tsmango'
+
+console.log(removeStorage('name'))
+```

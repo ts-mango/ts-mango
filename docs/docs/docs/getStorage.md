@@ -17,3 +17,11 @@ import { getStorage } from 'tsmango'
 ## 返回
 
 `string | null`
+
+## 例子
+
+```ts
+import { getStorage } from 'tsmango'
+
+console.log(getStorage('name'))
+```

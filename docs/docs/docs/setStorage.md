@@ -18,3 +18,11 @@ import { setStorage } from 'tsmango'
 ## 返回
 
 `void`
+
+## 例子
+
+```ts
+import { setStorage } from 'tsmango'
+
+console.log(setStorage('name', { name: 'admin' }))
+```
