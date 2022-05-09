@@ -2,8 +2,8 @@
 
 <script lang="ts" setup>
 // import TsMango from '../../index'
-import { randomString } from '../../index'
+import { isType } from '../../index'
 
-console.log(randomString(6)) // F4QLUf
-console.log(randomString(6, '-][;[..;[;.;]\!@##$%&*(()))')) // &@).]&
+console.log(isType([], 'Array')) // false
+console.log(isType(123, 'Number')) // true
 </script>
