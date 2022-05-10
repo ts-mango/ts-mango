@@ -19,6 +19,7 @@ import { isUndefined } from './isUndefined'
 import { getType } from './getType'
 import { isNumber } from './isNumber'
 import { deepClone } from './deepClone'
+import { isOnLine } from './isOnLine'
 
 const TsMango = {
   version,
@@ -41,7 +42,8 @@ const TsMango = {
   isUndefined,
   getType,
   isNumber,
-  deepClone
+  deepClone,
+  isOnLine
 } as const
 
 export {
@@ -64,7 +66,8 @@ export {
   isUndefined,
   getType,
   isNumber,
-  deepClone
+  deepClone,
+  isOnLine
 }
 
 export default TsMango

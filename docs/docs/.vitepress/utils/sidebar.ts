@@ -68,6 +68,7 @@ export const sidebar = {
         { text: '获取本地存储', link: `${base}docs/getStorage` },
         { text: '删除本地存储', link: `${base}docs/removeStorage` },
         { text: '添加本地存储', link: `${base}docs/setStorage` },
+        { text: '当前是否联网状态', link: `${base}docs/isOnLine` },
       ]
     }
   ]
