@@ -1,4 +1,4 @@
-import { onError } from './utils/onError'
+import { onTypeError } from './utils/onError'
 
 type Type =
   | 'String'
@@ -23,7 +23,7 @@ type Type =
  * @returns boolean
  */
 export const isType = (target: any, type: Type): boolean => {
-  if (!type) onError('isType', 'The second parameter is missing')
+  if (!type) onTypeError('isType', 'The second parameter is missing')
   const toString = Object.prototype.toString
   return toString.call(target) === `[object ${type}]`
 }

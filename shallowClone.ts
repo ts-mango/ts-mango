@@ -1,4 +1,4 @@
-import { onError } from './utils/onError'
+import { onTypeError } from './utils/onError'
 
 /**
  * 浅克隆
@@ -6,7 +6,7 @@ import { onError } from './utils/onError'
  * @returns 克隆好的新对象
  */
 export const shallowClone = (obj: object): object => {
-  if (!(obj instanceof Object)) onError('shallowClone', 'Parameter is not a object')
+  if (!(obj instanceof Object)) onTypeError('shallowClone', 'Parameter is not a object')
   const res: object = {}
   for (const key in obj) {
     res[key] = obj[key]

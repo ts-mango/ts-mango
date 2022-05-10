@@ -1,4 +1,4 @@
-import { onError } from './utils/onError'
+import { onTypeError } from './utils/onError'
 
 /**
  * 数组去重
@@ -6,7 +6,7 @@ import { onError } from './utils/onError'
  * @returns 去重后的数组 如果传入的不是数组则返回空数组
  */
 export const uniqueArray = (arr: any[]): any[] => {
-  if (!Array.isArray(arr)) onError('uniqueArray', 'Parameter is not an array')
+  if (!Array.isArray(arr)) onTypeError('uniqueArray', 'Parameter is not an array')
   if (arr.length === 1) {
     return arr
   }

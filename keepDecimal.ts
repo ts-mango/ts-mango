@@ -1,4 +1,4 @@
-import { onError } from './utils/onError'
+import { onTypeError } from './utils/onError'
 
 /**
  * 保留小数点后 n 位
@@ -8,7 +8,7 @@ import { onError } from './utils/onError'
  */
 export const keepDecimal = (num: number, no: number = 2): number => {
   if (typeof num !== 'number') {
-    onError('keepDecimal', 'num is not a number')
+    onTypeError('keepDecimal', 'num is not a number')
   }
   return Number(num.toFixed(no))
 }
