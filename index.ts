@@ -16,6 +16,9 @@ import { throttle } from './throttle'
 import { isType } from './isType'
 import { isNull } from './isNull'
 import { isUndefined } from './isUndefined'
+import { getType } from './getType'
+import { isNumber } from './isNumber'
+import { deepClone } from './deepClone'
 
 const TsMango = {
   version,
@@ -35,7 +38,10 @@ const TsMango = {
   throttle,
   isType,
   isNull,
-  isUndefined
+  isUndefined,
+  getType,
+  isNumber,
+  deepClone
 } as const
 
 export {
@@ -55,7 +61,10 @@ export {
   throttle,
   isType,
   isNull,
-  isUndefined
+  isUndefined,
+  getType,
+  isNumber,
+  deepClone
 }
 
 export default TsMango

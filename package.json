@@ -1,6 +1,6 @@
 {
   "name": "tsmango",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "TsMango is a utility function library written in typescript",
   "main": "index.ts",
   "keywords": [
