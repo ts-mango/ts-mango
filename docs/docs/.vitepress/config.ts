@@ -1,6 +1,5 @@
 import { nav } from './utils/nav'
 import { sidebar } from './utils/sidebar'
-
 import getBase from '../../src/vitepress/config/baseConfig'
 
 export default (async () => {

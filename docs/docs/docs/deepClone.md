@@ -12,8 +12,8 @@ import { deepClone } from 'tsmango'
 
 ## 参数
 
-- `params: object | any[]`：需要克隆的对象或者数组
+- `object | unknown[]`：需要克隆的对象或者数组
 
 ## 返回
 
-`object | any[]`
+`object | unknown[]`

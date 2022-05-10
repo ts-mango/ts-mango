@@ -12,7 +12,7 @@ import { isNumber } from 'tsmango'
 
 ## 参数
 
-- `target: any`：要检测的数据
+- `target: unknown`：要检测的数据
 
 ## 返回
 

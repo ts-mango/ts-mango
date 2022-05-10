@@ -12,7 +12,7 @@ import { isNull } from 'tsmango'
 
 ## 参数
 
-- `target: any`：检测的值
+- `target: unknown`：检测的值
 
 ## 返回
 

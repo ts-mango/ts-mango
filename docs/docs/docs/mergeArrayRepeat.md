@@ -16,7 +16,7 @@ import { mergeArrayRepeat } from 'tsmango'
 
 ## 返回
 
-`any[]`
+`unknown[]`
 
 返回新数组，不会改变原数组
 

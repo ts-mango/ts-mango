@@ -30,7 +30,7 @@ type Type =
   | 'Undefined'
 ```
 
-- `target: any`：要检查的数据
+- `target: unknown`：要检查的数据
 - `type: Type`：数据类型
 
 ## 返回
