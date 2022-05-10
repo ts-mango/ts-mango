@@ -15,6 +15,7 @@ import { keepDecimal } from './keepDecimal'
 import { throttle } from './throttle'
 import { isType } from './isType'
 import { isNull } from './isNull'
+import { isUndefined } from './isUndefined'
 
 const TsMango = {
   version,
@@ -33,7 +34,8 @@ const TsMango = {
   keepDecimal,
   throttle,
   isType,
-  isNull
+  isNull,
+  isUndefined
 } as const
 
 export {
@@ -52,7 +54,8 @@ export {
   keepDecimal,
   throttle,
   isType,
-  isNull
+  isNull,
+  isUndefined
 }
 
 export default TsMango

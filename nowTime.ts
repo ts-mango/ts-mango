@@ -1,9 +1,11 @@
+import { nowTimeInterface } from './type/nowTime'
+
 /**
  * 将时间戳转换为真正的时间格式
  * @param times 时间戳
  * @returns xxxx年 xx月 xx日 xx时 xx分 xx秒
  */
-export const nowTime = (times: string | number): string => {
+export const nowTime: nowTimeInterface = (times: string | number): string => {
   const date: Date = new Date(parseInt(times.toString()))
   const Y: number = date.getFullYear()
   const M: string | number = date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1

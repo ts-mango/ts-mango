@@ -1,14 +1,16 @@
+import { throttleInterface } from './type/throttle'
+
 /**
  * 节流
  * @param fn 逻辑函数
  * @param time 执行逻辑的间隔
- * @returns
+ * @returns Function
  */
-export const throttle = (fn: Function, time: number = 1000): Function => {
+export const throttle: throttleInterface = (fn: Function, time: number = 1000): Function => {
   let flag: boolean = true
-  return function () {
+  return function (): void {
     if (flag) {
-      setTimeout(() => {
+      setTimeout((): void => {
         fn()
         flag = true
       }, time)

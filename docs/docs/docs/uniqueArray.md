@@ -12,11 +12,11 @@ import { uniqueArray } from 'tsmango'
 
 ## 参数
 
-- `arr: any[]`：需要去重的数组
+- `arr: unknown[]`：需要去重的数组
 
 ## 返回
 
-`arr: any[]`
+`arr: unknown[]`
 
 ## 例子
 
