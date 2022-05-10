@@ -4,7 +4,7 @@
  * @param target 数组元素
  * @returns 将多个数组合并后并去重
  */
-export const mergeArrayRepeat = (...target: any[]): any[] => {
+export const mergeArrayRepeat = (...target: any[]): unknown[] => {
   if (target.length === 0) []
   const res: any[] = []
   for (const arr of target) {

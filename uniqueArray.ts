@@ -5,8 +5,9 @@ import { onTypeError } from './utils/onError'
  * @param arr 需要去重的数组
  * @returns 去重后的数组 如果传入的不是数组则返回空数组
  */
-export const uniqueArray = (arr: any[]): any[] => {
+export const uniqueArray = (arr: unknown[]): unknown[] => {
   if (!Array.isArray(arr)) onTypeError('uniqueArray', 'Parameter is not an array')
+
   if (arr.length === 1) {
     return arr
   }
