@@ -60,11 +60,10 @@ export function isActive(
 //   currentPath: string,
 //   matchPath: string
 // ): boolean {
-
-//   if (`${matchPath}.html` === win.location.pathname) {
-//     return true
-//   }
-//   return false
+//     if (`${matchPath}.html` === window.location.pathname) {
+//       return true
+//     }
+//     return false
 // }
 
 export function normalize(path: string): string {
