@@ -1,20 +1,18 @@
-import { throttleInterface } from './type/throttle'
+import { throttleInterface, returnFunctionInterface } from './type/throttle'
 
 /**
  * 节流
- * @param fn 逻辑函数
- * @param time 执行逻辑的间隔
- * @returns Function
+ * @param handler 逻辑函数
+ * @param wait 执行逻辑的间隔
+ * @returns returnFunctionInterface
  */
-export const throttle: throttleInterface = (fn: Function, time: number = 1000): Function => {
-  let flag: boolean = true
+export const throttle: throttleInterface = (handler: Function, wait: number = 1000): returnFunctionInterface => {
+  let prev: number = Number(new Date)
   return function (): void {
-    if (flag) {
-      setTimeout((): void => {
-        fn()
-        flag = true
-      }, time)
+    const now: number = Number(new Date)
+    if (now - prev > wait) {
+      handler.apply(this, arguments)
+      prev = now
     }
-    flag = false
   }
 }

@@ -1,3 +1,5 @@
+import { returnFunctionInterface } from './throttle'
+
 export interface debounceInterface {
-  (fn: Function, time: number): Function
+  (handle: Function, delay: number): returnFunctionInterface
 }

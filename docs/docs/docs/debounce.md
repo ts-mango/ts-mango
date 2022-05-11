@@ -12,8 +12,8 @@ import { debounce } from 'tsmango'
 
 ## 参数
 
-- `fn: Function`：回调参数
-- `time: number = 200`：延时的时间
+- `handle: Function`：回调参数
+- `delay: number = 200`：延时的时间
 
 ## 返回
 

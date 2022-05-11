@@ -12,8 +12,8 @@ import { throttle } from 'tsmango'
 
 ## 参数
 
-- `fn: Function`：逻辑函数
-- `time: number = 1000`：执行逻辑的间隔
+- `handler: Function`：逻辑函数
+- `wait: number = 1000`：执行逻辑的间隔
 
 ## 返回
 
