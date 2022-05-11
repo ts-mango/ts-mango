@@ -7,5 +7,5 @@ import { getType } from './getType'
  * @returns boolean
  */
 export const isNumber: isNumberInterface = (target: unknown): boolean => {
-  return typeof target === 'number' && getType(target) === '[Object Number]'
+  return typeof target === 'number' && getType(target) === '[object Number]'
 }

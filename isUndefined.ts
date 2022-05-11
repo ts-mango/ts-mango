@@ -7,5 +7,5 @@ import { getType } from './getType'
  * @returns boolean
  */
 export const isUndefined: isUndefinedInterface = (target: unknown): boolean => {
-  return target === undefined && typeof target === 'undefined' && getType(target) === '[Object Undefined]'
+  return target === undefined && typeof target === 'undefined' && getType(target) === '[object Undefined]'
 }
