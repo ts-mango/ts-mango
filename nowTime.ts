@@ -1,17 +1,18 @@
-import { nowTimeInterface } from './type/nowTime'
+import type { configInterface } from './type/dateConfig'
+import type { nowTimeInterface } from './type/nowTime'
+import { dateConfig } from './utils/dateConfig'
 
 /**
- * 将时间戳转换为真正的时间格式
+ * 将时间戳转换为指定时间格式
  * @param times 时间戳
- * @returns xxxx年 xx月 xx日 xx时 xx分 xx秒
+ * @param format 日期格式
+ * @returns 指定日期格式
  */
-export const nowTime: nowTimeInterface = (times: string | number): string => {
+export const nowTime: nowTimeInterface = (times: number | string, format: string = 'YYYY-MM-DD HH:mm:ss'): string => {
   const date: Date = new Date(parseInt(times.toString()))
-  const Y: number = date.getFullYear()
-  const M: string | number = date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1
-  const D: string | number = date.getDate() < 10 ? '0' + date.getDate() : date.getDate()
-  const H: string | number = date.getHours() < 10 ? '0' + date.getHours() : date.getHours()
-  const Mi: string | number = date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()
-  const S: string | number = date.getSeconds() < 10 ? '0' + date.getSeconds() : date.getSeconds()
-  return `${Y}年 ${M}月 ${D}日 ${H}时 ${Mi}分 ${S}秒`
+  const config: configInterface = dateConfig(date)
+  for (const key in config) {
+    format = format.replace(key, config[key])
+  }
+  return format
 }
