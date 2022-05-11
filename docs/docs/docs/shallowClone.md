@@ -17,3 +17,20 @@ import { shallowClone } from 'tsmango'
 ## 返回
 
 `object`
+
+## 例子
+
+```ts
+import { shallowClone } from 'tsmango'
+
+const obj = {
+  name: 'admin',
+  age: 12,
+}
+
+const clone = shallowClone(obj)
+
+console.log(obj) // {name: 'admin', age: 12}
+console.log(clone) // {name: 'admin', age: 12}
+console.log(obj === clone) // false
+```

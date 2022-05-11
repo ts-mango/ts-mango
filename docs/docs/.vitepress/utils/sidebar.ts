@@ -27,9 +27,8 @@ export const sidebar = {
     },
     {
       text: '数组',
-      link: `${base}docs/deepClone`,
+      link: `${base}docs/uniqueArray`,
       items: [
-        { text: '深克隆', link: `${base}docs/deepClone` },
         { text: '数组去重', link: `${base}docs/uniqueArray` },
         { text: '合并并去重', link: `${base}docs/mergeArrayRepeat` },
       ]
@@ -38,7 +37,8 @@ export const sidebar = {
       text: '对象',
       link: `${base}docs/shallowClone`,
       items: [
-        { text: '对象浅克隆', link: `${base}docs/shallowClone` },
+        { text: '浅克隆', link: `${base}docs/shallowClone` },
+        { text: '深克隆', link: `${base}docs/deepClone` },
       ]
     },
     {

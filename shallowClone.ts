@@ -1,4 +1,5 @@
 import type { shallowCloneInterface } from './type/shallowClone'
+import { getType } from './getType'
 import { onTypeError } from './utils/onError'
 
 /**
@@ -7,7 +8,7 @@ import { onTypeError } from './utils/onError'
  * @returns 克隆好的新对象
  */
 export const shallowClone: shallowCloneInterface = (obj: object): object => {
-  if (!(obj instanceof Object)) {
+  if (getType(obj) !== '[object Object]') {
     onTypeError('shallowClone', 'Parameter is not a object')
   }
   const res: object = {}
