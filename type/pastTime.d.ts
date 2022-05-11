@@ -1,3 +1,10 @@
 export interface pastTimeInterface {
-  (time: string): string
+  (time: string, format?: string): string
+}
+
+export interface configInterface {
+  DD: number
+  HH: number
+  MM: number
+  SS: number
 }

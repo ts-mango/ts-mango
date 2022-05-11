@@ -20,6 +20,7 @@ import { getType } from './getType'
 import { isNumber } from './isNumber'
 import { deepClone } from './deepClone'
 import { isOnLine } from './isOnLine'
+import { dateFormat } from './dateFormat'
 
 const TsMango = {
   version,
@@ -43,7 +44,8 @@ const TsMango = {
   getType,
   isNumber,
   deepClone,
-  isOnLine
+  isOnLine,
+  dateFormat
 } as const
 
 export {
@@ -67,7 +69,8 @@ export {
   getType,
   isNumber,
   deepClone,
-  isOnLine
+  isOnLine,
+  dateFormat
 }
 
 export default TsMango

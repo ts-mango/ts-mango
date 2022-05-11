@@ -1,19 +1,11 @@
-<template>
-  <input type="text" :value="text" @input="update" />
-  <h1>{{ text }}</h1>
-</template>
+<template></template>
 
 <script lang="ts" setup>
-import { ref } from 'vue'
-import { throttle } from '../../index'
+import { dateFormat, getType } from '../../index'
 
-const text = ref('tsmango')
+const now = new Date()
 
-interface updateInterface {
-  (e: Event): void
-}
-
-const update: updateInterface = throttle((e: Event): void => {
-  text.value = (e.target as HTMLInputElement).value
-}, 900)
+console.log(dateFormat(now)) // 2022-05-11 16:00:13
+console.log(dateFormat(now, 'YYYY-MM-DD')) // 2022-05-11
+console.log(dateFormat(now, 'YYYY年MM月DD日')) // 2022年05月11日
 </script>

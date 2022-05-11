@@ -11,7 +11,7 @@ import { dateConfig } from './utils/dateConfig'
  * @returns 指定格式的日期
  */
 export const dateFormat: dateFormatInterface = (date: Date, format: string = 'YYYY-MM-DD HH:mm:ss'): string => {
-  if (getType(date) !== '[Object Date]') {
+  if (getType(date) !== '[object Date]') {
     onTypeError('dateFormat', 'The first parameter is not of type Date')
   }
   const config: configInterface = dateConfig(date)
