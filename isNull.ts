@@ -7,5 +7,5 @@ import { getType } from './getType'
  * @returns boolean
  */
 export const isNull: isNullInterface = (target: unknown): boolean => {
-  return target === null && getType(target) === '[Object Null]'
+  return target === null && getType(target) === '[object Null]'
 }
