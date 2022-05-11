@@ -13,8 +13,9 @@ import { useData } from 'vitepress'
 import { inject } from 'vue'
 import { MenuItemWithLink } from '../../core'
 import { isActive } from '../support/utils'
+import { getCurrentInstance } from 'vue'
 
-const props = defineProps<{
+defineProps<{
   item: MenuItemWithLink
 }>()
 

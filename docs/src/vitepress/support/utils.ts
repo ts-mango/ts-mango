@@ -41,7 +41,7 @@ export function isActive(
   if (matchPath === undefined) {
     return false
   }
-  currentPath = normalize(`/${currentPath}`)
+  currentPath = `/mango${normalize(`/${currentPath}`)}`
   if (asRegex) {
     return new RegExp(matchPath).test(currentPath)
   } else {
@@ -56,15 +56,12 @@ export function isActive(
   }
 }
 
-// export function isActive(
-//   currentPath: string,
-//   matchPath: string
-// ): boolean {
-//     if (`${matchPath}.html` === window.location.pathname) {
-//       return true
-//     }
-//     return false
-// }
+export function isActiveNav(
+  currentPath: string,
+  matchPath?: string
+): boolean {
+  return `/${currentPath.slice(0, 5)}` === matchPath
+}
 
 export function normalize(path: string): string {
   return decodeURI(path).replace(hashRE, '').replace(extRE, '')

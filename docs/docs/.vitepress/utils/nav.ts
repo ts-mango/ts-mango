@@ -6,13 +6,8 @@ export const nav = [
   },
   {
     text: '文档',
-    activeMatch: '^/docs/',
+    activeMatch: '/docs/',
     link: '/docs/introduce'
-  },
-  {
-    text: '更新日志',
-    activeMatch: '^/docs/',
-    link: '/docs/CHANGELOG'
   },
   {
     text: 'Github',

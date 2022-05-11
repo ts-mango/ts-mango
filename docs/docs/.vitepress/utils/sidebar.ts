@@ -6,7 +6,8 @@ export const sidebar = {
       text: '快速上手',
       link: `${base}docs/introduce`,
       items: [
-        { text: '安装', link: `${base}docs/introduce` }
+        { text: '安装', link: `${base}docs/introduce` },
+        { text: '更新日志', link: `${base}docs/CHANGELOG` },
       ]
     },
     {
