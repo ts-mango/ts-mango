@@ -8,7 +8,7 @@ import { getType } from './getType'
  * @returns 去重后的数组 如果传入的不是数组则返回空数组
  */
 export const uniqueArray: uniqueArrayInterface = (arr: unknown[]): unknown[] => {
-  if (!Array.isArray(arr) && getType(arr) !== '[Object Array]') {
+  if (!Array.isArray(arr) && getType(arr) !== '[object Array]') {
     onTypeError('uniqueArray', 'Parameter is not an array')
   }
 

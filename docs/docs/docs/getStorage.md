@@ -16,7 +16,7 @@ import { getStorage } from 'tsmango'
 
 ## 返回
 
-`string | null`
+`string | object | null`
 
 ## 例子
 
