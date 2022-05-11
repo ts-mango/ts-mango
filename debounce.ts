@@ -5,7 +5,7 @@ import { returnFunctionInterface } from './type/throttle'
  * 防抖
  * @param handle 回调函数
  * @param delay 时间
- * @returns function
+ * @returns returnFunctionInterface
  */
 export const debounce: debounceInterface = (handle: Function, delay: number = 200): returnFunctionInterface => {
   let timer: number | null = null

@@ -1,10 +1,19 @@
-<template></template>
+<template>
+  <input type="text" :value="text" @input="update" />
+  <h1>{{ text }}</h1>
+</template>
 
 <script lang="ts" setup>
-import TsMango from '../../index'
-import { setStorage } from '../../index'
+import { ref } from 'vue'
+import { throttle } from '../../index'
 
-console.log(setStorage) // 12
-console.log(TsMango) // 12
-// console.log(keepDecimal({})) // true
+const text = ref('tsmango')
+
+interface updateInterface {
+  (e: Event): void
+}
+
+const update: updateInterface = throttle((e: Event): void => {
+  text.value = (e.target as HTMLInputElement).value
+}, 900)
 </script>
