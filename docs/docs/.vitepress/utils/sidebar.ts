@@ -3,6 +3,13 @@ const base = '/mango/'
 export const sidebar = {
   '/docs/': [
     {
+      text: '快速上手',
+      link: `${base}docs/introduce`,
+      items: [
+        { text: '安装', link: `${base}docs/introduce` }
+      ]
+    },
+    {
       text: '数字',
       link: `${base}docs/keepDecimal`,
       items: [
