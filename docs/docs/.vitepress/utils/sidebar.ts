@@ -66,6 +66,7 @@ export const sidebar = {
       items: [
         { text: '计算时间过去多久', link: `${base}docs/pastTime` },
         { text: '将时间戳转换为正常的时间', link: `${base}docs/nowTime` },
+        { text: '获取当前的时间', link: `${base}docs/dateFormat` },
       ]
     },
     {
