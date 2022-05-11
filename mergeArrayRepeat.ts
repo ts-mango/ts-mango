@@ -1,4 +1,4 @@
-import { mergeArrayRepeatInterface } from './type/mergeArrayRepeat'
+import type { mergeArrayRepeatInterface } from './type/mergeArrayRepeat'
 
 /**
  * 将多个数组合并成一个新的数组，并去重

@@ -1,5 +1,5 @@
-import { debounceInterface } from './type/debounce'
-import { returnFunctionInterface } from './type/throttle'
+import type { debounceInterface } from './type/debounce'
+import type { returnFunctionInterface } from './type/throttle'
 
 /**
  * 防抖

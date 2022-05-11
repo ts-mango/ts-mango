@@ -1,4 +1,4 @@
-import { pastTimeInterface } from './type/pastTime'
+import type { pastTimeInterface } from './type/pastTime'
 
 /**
  * 计算从一个时间到现在过去多久

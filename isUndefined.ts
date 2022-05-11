@@ -1,5 +1,5 @@
+import type { isUndefinedInterface } from './type/isUndefined'
 import { getType } from './getType'
-import { isUndefinedInterface } from './type/isUndefined'
 
 /**
  * 判断一个值是否为 undefined

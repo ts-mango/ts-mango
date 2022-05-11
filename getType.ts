@@ -1,4 +1,4 @@
-import { getTypeInterface } from './type/getType'
+import type { getTypeInterface } from './type/getType'
 
 /**
  * 返回数据的类型

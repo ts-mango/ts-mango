@@ -1,4 +1,4 @@
-import { randomNumInterface } from './type/randomNum'
+import type { randomNumInterface } from './type/randomNum'
 
 /**
  * 获取指定参数范围的随机数

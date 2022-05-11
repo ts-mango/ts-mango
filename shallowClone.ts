@@ -1,5 +1,5 @@
+import type { shallowCloneInterface } from './type/shallowClone'
 import { onTypeError } from './utils/onError'
-import { shallowCloneInterface } from './type/shallowClone'
 
 /**
  * 浅克隆

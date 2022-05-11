@@ -1,5 +1,5 @@
+import type { isNullInterface } from './type/isNull'
 import { getType } from './getType'
-import { isNullInterface } from './type/isNull'
 
 /**
  * 判断一个值是否是 null

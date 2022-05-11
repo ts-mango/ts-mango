@@ -1,4 +1,4 @@
-import { throttleInterface, returnFunctionInterface } from './type/throttle'
+import type { throttleInterface, returnFunctionInterface } from './type/throttle'
 
 /**
  * 节流

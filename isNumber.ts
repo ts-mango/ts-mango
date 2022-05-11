@@ -1,5 +1,5 @@
+import type { isNumberInterface } from './type/isNumber'
 import { getType } from './getType'
-import { isNumberInterface } from './type/isNumber'
 
 /**
  * 检测一个数据是否为 Number 类型

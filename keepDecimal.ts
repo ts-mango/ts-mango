@@ -1,6 +1,6 @@
+import type { keepDecimalInterface } from './type/keepDecimal'
 import { onTypeError } from './utils/onError'
 import { isNumber } from './isNumber'
-import { keepDecimalInterface } from './type/keepDecimal'
 
 /**
  * 保留小数点后 n 位

@@ -1,5 +1,5 @@
+import type { Type, isTypeInterface, toStringInterface } from './type/isType'
 import { onTypeError } from './utils/onError'
-import { Type, isTypeInterface, toStringInterface } from './type/isType'
 
 /**
  * 检测数据类型
