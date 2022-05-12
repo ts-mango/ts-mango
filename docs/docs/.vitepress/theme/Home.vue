@@ -6,7 +6,7 @@
     <p class="title">TsMango</p>
 
     <p align="center">
-      <a href="/mango/docs/introduce.html">
+      <a href="/mango/docs/introduce">
         <button class="start">Start using</button>
       </a>
       <a href="https://github.com/Tyh2001/TsMango" target="_back">
