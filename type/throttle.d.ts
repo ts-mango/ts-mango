@@ -3,5 +3,5 @@ export interface returnFunctionInterface {
 }
 
 export interface throttleInterface {
-  (handler: Function, wait: number): returnFunctionInterface
+  (handler: Function, wait?: number): returnFunctionInterface
 }

@@ -10,7 +10,7 @@ import type { returnFunctionInterface } from './type/throttle'
 export const debounce: debounceInterface = (handle: Function, delay: number = 200): returnFunctionInterface => {
   let timer: number | null = null
   return function (): void {
-    const _self: unknown = this
+    const _self: any = this
     const _args: unknown = arguments
     if (timer) {
       clearTimeout(timer)

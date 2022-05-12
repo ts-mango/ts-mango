@@ -14,7 +14,7 @@ export const pastTime: pastTimeInterface = (time: string, format: string = 'DDå¤
   const MINUTES: number = Math.floor(SECONDS / 60)
   const HOURS: number = Math.floor(MINUTES / 60)
 
-  const config: configInterface = {
+  const config: any = {
     DD: Math.floor(HOURS / 24),
     HH: HOURS % 24,
     MM: MINUTES % 60,

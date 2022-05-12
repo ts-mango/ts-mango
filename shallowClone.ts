@@ -7,11 +7,11 @@ import { onTypeError } from './utils/onError'
  * @param obj 需要克隆的对象
  * @returns 克隆好的新对象
  */
-export const shallowClone: shallowCloneInterface = (obj: object): object => {
+export const shallowClone: shallowCloneInterface = (obj: { [propName: string]: any }): object => {
   if (getType(obj) !== '[object Object]') {
     onTypeError('shallowClone', 'Parameter is not a object')
   }
-  const res: object = {}
+  const res: any = {} as any
   for (const key in obj) {
     res[key] = obj[key]
   }

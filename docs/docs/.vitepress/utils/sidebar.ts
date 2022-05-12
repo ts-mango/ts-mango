@@ -54,7 +54,6 @@ export const sidebar = {
       text: '类型',
       link: `${base}docs/isType`,
       items: [
-        { text: '检测数据类型', link: `${base}docs/isType` },
         { text: '获取数据类型', link: `${base}docs/getType` },
         { text: '判断一个值是否是 null', link: `${base}docs/isNull` },
         { text: '判断一个值是否是 number', link: `${base}docs/isNumber` },

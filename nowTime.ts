@@ -10,7 +10,7 @@ import { dateConfig } from './utils/dateConfig'
  */
 export const nowTime: nowTimeInterface = (times: number | string, format: string = 'YYYY-MM-DD HH:mm:ss'): string => {
   const date: Date = new Date(parseInt(times.toString()))
-  const config: configInterface = dateConfig(date)
+  const config: any = dateConfig(date)
   for (const key in config) {
     format = format.replace(key, config[key])
   }
