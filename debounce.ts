@@ -1,13 +1,12 @@
 import type { debounceInterface } from './type/debounce'
-import type { returnFunctionInterface } from './type/throttle'
 
 /**
  * 防抖
  * @param handle 回调函数
  * @param delay 时间
- * @returns returnFunctionInterface
+ * @returns Function
  */
-export const debounce: debounceInterface = (handle: Function, delay: number = 200): returnFunctionInterface => {
+export const debounce: debounceInterface = function (handle: Function, delay: number = 200): Function {
   let timer: number | null = null
   return function (): void {
     const _self: any = this

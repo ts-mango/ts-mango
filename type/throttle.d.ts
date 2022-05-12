@@ -1,7 +1,3 @@
-export interface returnFunctionInterface {
-  (): void
-}
-
 export interface throttleInterface {
-  (handler: Function, wait?: number): returnFunctionInterface
+  (handler: Function, wait?: number): void
 }

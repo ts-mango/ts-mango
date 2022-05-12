@@ -3,6 +3,7 @@
 - 修复 `isNull` 类型检测
 - 修复 `isNumber` 类型检测
 - 移除 `isType` 函数
+- `debounce` 和 `throttle` 函数由箭头函数改为函数表达式
 
 ## 2022-05-11 (1.0.5)
 
