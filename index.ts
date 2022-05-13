@@ -21,6 +21,8 @@ import { isOnLine } from './isOnLine'
 import { dateFormat } from './dateFormat'
 import { isString } from './isString'
 import { isObject } from './isObject'
+import { isTf } from './isTf'
+import { isArrHave } from './isArrHave'
 
 const TsMango = {
   debounce,
@@ -45,7 +47,9 @@ const TsMango = {
   isOnLine,
   dateFormat,
   isString,
-  isObject
+  isObject,
+  isTf,
+  isArrHave
 } as const
 
 export {
@@ -71,7 +75,9 @@ export {
   isOnLine,
   dateFormat,
   isString,
-  isObject
+  isObject,
+  isTf,
+  isArrHave
 }
 
 export default TsMango

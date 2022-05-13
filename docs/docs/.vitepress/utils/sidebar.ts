@@ -32,6 +32,7 @@ export const sidebar = {
       items: [
         { text: '数组去重', link: `${base}docs/uniqueArray` },
         { text: '合并并去重', link: `${base}docs/mergeArrayRepeat` },
+        { text: '检测数组是否存在某个值', link: `${base}docs/isArrHave` },
       ]
     },
     {
@@ -61,6 +62,7 @@ export const sidebar = {
         { text: '检测一个值是否是 object', link: `${base}docs/isObject` },
         { text: '检测一个值是否是 array', link: `${base}docs/isArray` },
         { text: '检测一个值是否是 undefined', link: `${base}docs/isUndefined` },
+        { text: '检测一个值是否为真', link: `${base}docs/isTf` },
       ]
     },
     {
