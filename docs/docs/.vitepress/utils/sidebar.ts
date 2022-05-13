@@ -8,6 +8,7 @@ export const sidebar = {
       items: [
         { text: '安装', link: `${base}docs/introduce` },
         { text: '更新日志', link: `${base}docs/CHANGELOG` },
+        { text: '贡献指南', link: `${base}docs/CONTRIBUTING` },
       ]
     },
     {
