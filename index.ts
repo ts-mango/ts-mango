@@ -20,6 +20,7 @@ import { deepClone } from './deepClone'
 import { isOnLine } from './isOnLine'
 import { dateFormat } from './dateFormat'
 import { isString } from './isString'
+import { isObject } from './isObject'
 
 const TsMango = {
   debounce,
@@ -36,7 +37,6 @@ const TsMango = {
   randomString,
   keepDecimal,
   throttle,
-  // isType,
   isNull,
   isUndefined,
   getType,
@@ -44,7 +44,8 @@ const TsMango = {
   deepClone,
   isOnLine,
   dateFormat,
-  isString
+  isString,
+  isObject
 } as const
 
 export {
@@ -62,7 +63,6 @@ export {
   randomString,
   keepDecimal,
   throttle,
-  // isType,
   isNull,
   isUndefined,
   getType,
@@ -70,7 +70,8 @@ export {
   deepClone,
   isOnLine,
   dateFormat,
-  isString
+  isString,
+  isObject
 }
 
 export default TsMango

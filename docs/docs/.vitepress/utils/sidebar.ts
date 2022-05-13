@@ -58,6 +58,8 @@ export const sidebar = {
         { text: '检测一个值是否是 null', link: `${base}docs/isNull` },
         { text: '检测一个值是否是 number', link: `${base}docs/isNumber` },
         { text: '检测一个值是否是 string', link: `${base}docs/isString` },
+        { text: '检测一个值是否是 object', link: `${base}docs/isObject` },
+        { text: '检测一个值是否是 array', link: `${base}docs/isArray` },
         { text: '检测一个值是否是 undefined', link: `${base}docs/isUndefined` },
       ]
     },

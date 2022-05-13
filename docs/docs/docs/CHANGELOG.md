@@ -1,6 +1,8 @@
 # 更新日志
 
 - 新增 `isString` 函数
+- 新增 `isObject` 函数
+- 新增 `isArray` 函数
 - 修复 `getStorage` 函数的返回值报错问题
 
 ## 1.0.6 beta.3 (2022-05-12)
