@@ -4,3 +4,4 @@ play/
 .github
 docs/
 logo/
+.pnpm-debug.log

@@ -1,4 +1,4 @@
-import type { isNullInterface } from './type/isNull'
+import type { isNumberInterface } from './type/isNumber'
 import { getType } from './getType'
 
 /**
@@ -6,6 +6,6 @@ import { getType } from './getType'
  * @param target 检测的值
  * @returns boolean
  */
-export const isNull: isNullInterface = (target: unknown): boolean => {
+export const isNull: isNumberInterface = (target: unknown): boolean => {
   return target === null && getType(target) === '[object Null]'
 }

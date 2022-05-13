@@ -7,7 +7,7 @@ import type { debounceInterface } from './type/debounce'
  * @returns Function
  */
 export const debounce: debounceInterface = (handle: Function, delay: number = 200): Function => {
-  let timer: number | null = null
+  let timer: any = null
   return function (): void {
     if (timer) {
       clearTimeout(timer)

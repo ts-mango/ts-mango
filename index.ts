@@ -1,4 +1,3 @@
-// import { version } from './package.json'
 import { debounce } from './debounce'
 import { setStorage } from './setStorage'
 import { getStorage } from './getStorage'
@@ -13,7 +12,6 @@ import { shallowClone } from './shallowClone'
 import { randomString } from './randomString'
 import { keepDecimal } from './keepDecimal'
 import { throttle } from './throttle'
-// import { isType } from './isType'
 import { isNull } from './isNull'
 import { isUndefined } from './isUndefined'
 import { getType } from './getType'
@@ -21,9 +19,9 @@ import { isNumber } from './isNumber'
 import { deepClone } from './deepClone'
 import { isOnLine } from './isOnLine'
 import { dateFormat } from './dateFormat'
+import { isString } from './isString'
 
 const TsMango = {
-  // version,
   debounce,
   setStorage,
   getStorage,
@@ -45,7 +43,8 @@ const TsMango = {
   isNumber,
   deepClone,
   isOnLine,
-  dateFormat
+  dateFormat,
+  isString
 } as const
 
 export {
@@ -70,7 +69,8 @@ export {
   isNumber,
   deepClone,
   isOnLine,
-  dateFormat
+  dateFormat,
+  isString
 }
 
 export default TsMango

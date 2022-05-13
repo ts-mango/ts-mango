@@ -11,7 +11,7 @@ export const shallowClone: shallowCloneInterface = (obj: { [propName: string]: a
   if (getType(obj) !== '[object Object]') {
     onTypeError('shallowClone', 'Parameter is not a object')
   }
-  const res: any = {} as any
+  const res: any = {}
   for (const key in obj) {
     res[key] = obj[key]
   }

@@ -55,9 +55,10 @@ export const sidebar = {
       link: `${base}docs/isType`,
       items: [
         { text: '获取数据类型', link: `${base}docs/getType` },
-        { text: '判断一个值是否是 null', link: `${base}docs/isNull` },
-        { text: '判断一个值是否是 number', link: `${base}docs/isNumber` },
-        { text: '判断一个值是否是 undefined', link: `${base}docs/isUndefined` },
+        { text: '检测一个值是否是 null', link: `${base}docs/isNull` },
+        { text: '检测一个值是否是 number', link: `${base}docs/isNumber` },
+        { text: '检测一个值是否是 string', link: `${base}docs/isString` },
+        { text: '检测一个值是否是 undefined', link: `${base}docs/isUndefined` },
       ]
     },
     {

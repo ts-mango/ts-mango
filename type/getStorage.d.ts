@@ -1,3 +1,3 @@
 export interface getStorageInterface {
-  (name: string): string | object | null
+  (name: string): string | null
 }

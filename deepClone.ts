@@ -10,7 +10,7 @@ export const deepClone: deepCloneInterface = (params: object | unknown[]): objec
   if (typeof params !== 'object') {
     onTypeError('deepClone', 'Parameter is not a object')
   }
-  const res: any | any[] = params instanceof Array ? [] : {}
+  const res: any = params instanceof Array ? [] : {}
 
   for (const [key, val] of Object.entries(params)) {
     res[key] = typeof val === 'object' ? deepClone(val) : val
