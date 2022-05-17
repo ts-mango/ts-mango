@@ -3,10 +3,10 @@ const base = '/mango/'
 export const sidebar = {
   '/docs/': [
     {
-      text: '快速上手',
-      link: `${base}docs/introduce`,
+      text: '开始使用',
+      link: `${base}docs/start`,
       items: [
-        { text: '安装', link: `${base}docs/introduce` },
+        { text: '快速上手', link: `${base}docs/start` },
         { text: '更新日志', link: `${base}docs/CHANGELOG` },
         { text: '贡献指南', link: `${base}docs/CONTRIBUTING` },
       ]
