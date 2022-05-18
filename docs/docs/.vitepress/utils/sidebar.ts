@@ -25,6 +25,7 @@ export const sidebar = {
       link: `${base}docs/randomString`,
       items: [
         { text: '随机字符串', link: `${base}docs/randomString` },
+        { text: '随机颜色', link: `${base}docs/randomColor` },
       ]
     },
     {
