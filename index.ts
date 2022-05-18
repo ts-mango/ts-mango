@@ -23,6 +23,7 @@ import { isString } from './isString'
 import { isObject } from './isObject'
 import { isTf } from './isTf'
 import { isArrHave } from './isArrHave'
+import { randomColor } from './randomColor'
 
 const TsMango = {
   debounce,
@@ -49,7 +50,8 @@ const TsMango = {
   isString,
   isObject,
   isTf,
-  isArrHave
+  isArrHave,
+  randomColor
 } as const
 
 export {
@@ -77,7 +79,8 @@ export {
   isString,
   isObject,
   isTf,
-  isArrHave
+  isArrHave,
+  randomColor
 }
 
 export default TsMango

@@ -1,7 +1,13 @@
-<template></template>
+<template>
+  <button @click="change" :style="{ color }">点击切换颜色</button>
+</template>
 
 <script lang="ts" setup>
+import { ref } from 'vue'
 import tsmango from '../../index'
-// tsmango.dateFormat(new Date())
-// console.log(tsmango.isType(123, 'Number'))
+
+const color = ref('')
+function change() {
+  color.value = tsmango.randomColor()
+}
 </script>
