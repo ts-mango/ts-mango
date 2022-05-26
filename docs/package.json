@@ -1,0 +1,13 @@
+{
+  "name": "docs",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "vitepress": "^0.22.4",
+    "@vueuse/core": "^7.3.0",
+    "shiki": "^0.9.15"
+  }
+}

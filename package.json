@@ -1,14 +1,16 @@
 {
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "docs"
   ],
   "engines": {
     "node": ">= 16"
   },
   "scripts": {
-    "play": "pnpm run play -C packages/play dev",
-    "build:play": "pnpm run play -C packages/play build",
+    "dev:docs": "pnpm run -C docs dev",
+    "play": "pnpm run -C packages/play dev",
+    "build:play": "pnpm run -C packages/play build",
     "test": "vitest",
     "prettier": "prettier --write ."
   },
