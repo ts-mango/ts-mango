@@ -25,7 +25,7 @@ import { shallowClone } from 'tsmango'
 
 const obj = {
   name: 'admin',
-  age: 12,
+  age: 12
 }
 
 const clone = shallowClone(obj)

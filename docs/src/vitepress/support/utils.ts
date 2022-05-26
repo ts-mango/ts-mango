@@ -56,10 +56,7 @@ export function isActive(
   }
 }
 
-export function isActiveNav(
-  currentPath: string,
-  matchPath?: string
-): boolean {
+export function isActiveNav(currentPath: string, matchPath?: string): boolean {
   return `/${currentPath.slice(0, 5)}` === matchPath
 }
 

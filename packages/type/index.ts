@@ -13,7 +13,10 @@ export type { mergeArrayRepeatInterface } from './mergeArrayRepeat'
 export type { nowTimeInterface } from './nowTime'
 export type { onTypeErrorInterface } from './onError'
 export type { onLineInterface } from './onLine'
-export type { pastTimeInterface, configInterface as pastTimeConfigInterface } from './pastTime'
+export type {
+  pastTimeInterface,
+  configInterface as pastTimeConfigInterface
+} from './pastTime'
 export type { randomColorInterface } from './randomColor'
 export type { randomNumInterface } from './randomNum'
 export type { randomStringInterface } from './randomString'

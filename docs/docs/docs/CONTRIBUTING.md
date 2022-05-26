@@ -42,12 +42,12 @@ import { yourFunction } from './yourFunction'
 
 const TsMango = {
   // ...
-  yourFunction,
+  yourFunction
 } as const
 
 export {
   // ...
-  yourFunction,
+  yourFunction
 }
 
 export default TsMango

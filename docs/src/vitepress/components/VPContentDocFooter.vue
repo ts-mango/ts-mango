@@ -23,7 +23,7 @@
   import {
     VTIconChevronLeft,
     VTIconChevronRight,
-    MenuItemWithLink,
+    MenuItemWithLink
   } from '../../core'
 
   const { page, theme } = useData()
@@ -36,7 +36,7 @@
     )
     return {
       prev: candidates[index - 1],
-      next: candidates[index + 1],
+      next: candidates[index + 1]
     }
   })
 

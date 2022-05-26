@@ -1,5 +1,6 @@
 {
-  "name": "docs",
+  "name": "@ts-mango/docs",
+  "private": true,
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
