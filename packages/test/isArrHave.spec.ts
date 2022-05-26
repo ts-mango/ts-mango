@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { isArrHave } from '../../index'
+import { isArrHave } from '@ts-mango/mango'
 
 test('isArrHave', () => {
   expect(isArrHave([1, 2, 3, 4], 4)).toBe(true)

@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { randomNum } from '../../index'
+import { randomNum } from '@ts-mango/mango'
 
 test('randomNum', () => {
   expect(randomNum(0, 1)).toBe(0)

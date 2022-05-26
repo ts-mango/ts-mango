@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { isObject } from '../../index'
+import { isObject } from '@ts-mango/mango'
 
 test('isObject', () => {
   expect(isObject(1)).toBe(false)

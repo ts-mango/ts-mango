@@ -9,7 +9,7 @@
   "scripts": {
     "play": "pnpm run play -C packages/play dev",
     "build:play": "pnpm run play -C packages/play build",
-    "vitest": "^0.12.4",
+    "test": "vitest",
     "prettier": "prettier --write ."
   },
   "dependencies": {

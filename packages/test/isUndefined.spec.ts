@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { isUndefined } from '../../index'
+import { isUndefined } from '@ts-mango/mango'
 
 test('isUndefined ', () => {
   expect(isUndefined(1)).toBe(false)

@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { keepDecimal } from '../../index'
+import { keepDecimal } from '@ts-mango/mango'
 
 test('keepDecimal', () => {
   expect(keepDecimal(1.12121, 3)).toBe(1.121)

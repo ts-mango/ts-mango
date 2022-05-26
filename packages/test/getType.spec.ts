@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { getType } from '../../index'
+import { getType } from '@ts-mango/mango'
 
 test('getType', () => {
   expect(getType(1)).toBe('[object Number]')

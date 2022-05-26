@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { isString } from '../../index'
+import { isString } from '@ts-mango/mango'
 
 test('isString', () => {
   expect(isString(1)).toBe(false)
