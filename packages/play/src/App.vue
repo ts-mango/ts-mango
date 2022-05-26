@@ -4,7 +4,7 @@
 
 <script lang="ts" setup>
   import { ref } from 'vue'
-  import tsmango from '../../index'
+  import tsmango from '@ts-mango/mango'
 
   const color = ref('')
   function change() {
