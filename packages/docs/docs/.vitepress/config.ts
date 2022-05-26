@@ -17,9 +17,13 @@ export default (async () => {
     title: 'TsMango',
     base: '/mango/',
     head: [
-      ['link', { rel: 'icon', href: 'https://tianyuhao.cn/mango/images/mango.svg' }]
+      [
+        'link',
+        { rel: 'icon', href: 'https://tianyuhao.cn/mango/images/mango.svg' }
+      ]
     ],
-    description: 'TsMango 是一个用 typescript 编写的实用函数库。（TsMango is a utility function library written in typescript.）',
+    description:
+      'TsMango 是一个用 typescript 编写的实用函数库。（TsMango is a utility function library written in typescript.）',
     themeConfig: {
       nav,
       sidebar,
@@ -27,7 +31,6 @@ export default (async () => {
     }
   }
 })()
-
 
 // const config = {
 //   title: 'TsMango',

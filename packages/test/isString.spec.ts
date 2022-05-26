@@ -7,6 +7,6 @@ test('isString', () => {
   expect(isString({})).toBe(false)
   expect(isString([])).toBe(false)
   expect(isString('12')).toBe(true)
-  expect(isString(new Date)).toBe(false)
+  expect(isString(new Date())).toBe(false)
   expect(isString(false)).toBe(false)
 })

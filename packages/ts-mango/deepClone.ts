@@ -6,7 +6,9 @@ import { onTypeError } from './utils/onError'
  * @param params 需要克隆的参数
  * @returns 克隆好的结果
  */
-export const deepClone: deepCloneInterface = (params: object | unknown[]): object | any[] => {
+export const deepClone: deepCloneInterface = (
+  params: object | unknown[]
+): object | any[] => {
   if (typeof params !== 'object') {
     onTypeError('deepClone', 'Parameter is not a object')
   }

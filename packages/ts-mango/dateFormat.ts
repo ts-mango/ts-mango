@@ -10,7 +10,10 @@ import { dateConfig } from './utils/dateConfig'
  * @param format 日期格式
  * @returns 指定格式的日期
  */
-export const dateFormat: dateFormatInterface = (date: Date, format: any = 'YYYY-MM-DD HH:mm:ss'): string => {
+export const dateFormat: dateFormatInterface = (
+  date: Date,
+  format: any = 'YYYY-MM-DD HH:mm:ss'
+): string => {
   if (getType(date) !== '[object Date]') {
     onTypeError('dateFormat', 'The first parameter is not of type Date')
   }

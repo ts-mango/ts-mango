@@ -5,5 +5,10 @@ import type { randomColorInterface } from './type/randomColor'
  * @returns string
  */
 export const randomColor: randomColorInterface = (): string => {
-  return '#' + Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, '0')
+  return (
+    '#' +
+    Math.floor(Math.random() * 0xffffff)
+      .toString(16)
+      .padEnd(6, '0')
+  )
 }

@@ -1,0 +1,8 @@
+/dist/*
+/node_modules/**
+**/*.svg
+**/*.ai
+**/*.sh
+/packages/docs/docs/.vitepress/dist/*
+dist
+node_modules

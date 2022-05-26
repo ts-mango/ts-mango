@@ -8,7 +8,10 @@ import { dateConfig } from './utils/dateConfig'
  * @param format 日期格式
  * @returns 指定日期格式
  */
-export const nowTime: nowTimeInterface = (times: number | string, format: string = 'YYYY-MM-DD HH:mm:ss'): string => {
+export const nowTime: nowTimeInterface = (
+  times: number | string,
+  format: string = 'YYYY-MM-DD HH:mm:ss'
+): string => {
   const date: Date = new Date(parseInt(times.toString()))
   const config: any = dateConfig(date)
   for (const key in config) {

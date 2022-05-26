@@ -7,7 +7,7 @@ test('isTf', () => {
   expect(isTf({})).toBe(true)
   expect(isTf([])).toBe(true)
   expect(isTf('12')).toBe(true)
-  expect(isTf(new Date)).toBe(true)
+  expect(isTf(new Date())).toBe(true)
   expect(isTf(false)).toBe(false)
   expect(isTf(true)).toBe(true)
   expect(isTf(null)).toBe(false)

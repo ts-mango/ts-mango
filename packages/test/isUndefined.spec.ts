@@ -7,7 +7,7 @@ test('isUndefined ', () => {
   expect(isUndefined({})).toBe(false)
   expect(isUndefined([])).toBe(false)
   expect(isUndefined('12')).toBe(false)
-  expect(isUndefined(new Date)).toBe(false)
+  expect(isUndefined(new Date())).toBe(false)
   expect(isUndefined(false)).toBe(false)
   expect(isUndefined(undefined)).toBe(true)
 })

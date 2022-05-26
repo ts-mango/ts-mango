@@ -6,6 +6,6 @@ test('isNull', () => {
   expect(isNull({})).toBe(false)
   expect(isNull([])).toBe(false)
   expect(isNull('123')).toBe(false)
-  expect(isNull(new Date)).toBe(false)
+  expect(isNull(new Date())).toBe(false)
   expect(isNull(null)).toBe(true)
 })

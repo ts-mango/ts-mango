@@ -6,8 +6,12 @@ import type { randomStringInterface } from './type/randomString'
  * @param chars 字符串指定字符
  * @returns 随机字符串
  */
-export const randomString: randomStringInterface = (length: number, chars?: string): string => {
-  chars = chars || '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+export const randomString: randomStringInterface = (
+  length: number,
+  chars?: string
+): string => {
+  chars =
+    chars || '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
   let res: string = ''
   for (let i: number = 0; i < length; i++) {
     res += chars[Math.floor(Math.random() * chars.length)]

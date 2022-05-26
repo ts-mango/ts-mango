@@ -8,7 +8,10 @@ import { isNumber } from './isNumber'
  * @param no 保留位数
  * @returns 转换结果
  */
-export const keepDecimal: keepDecimalInterface = (num: number, no: number = 2): number => {
+export const keepDecimal: keepDecimalInterface = (
+  num: number,
+  no: number = 2
+): number => {
   if (!isNumber(num)) {
     onTypeError('keepDecimal', 'num is not a number')
   }

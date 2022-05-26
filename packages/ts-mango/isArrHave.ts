@@ -6,7 +6,10 @@ import { isArrHaveInterface } from './type/isArrHave'
  * @param target 要检测的值
  * @returns boolean
  */
-export const isArrHave: isArrHaveInterface = (arr: any[], target: any): boolean => {
+export const isArrHave: isArrHaveInterface = (
+  arr: any[],
+  target: any
+): boolean => {
   if (arr.length === 0) {
     return false
   }

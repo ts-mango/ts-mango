@@ -5,7 +5,10 @@ import type { pastTimeInterface, configInterface } from './type/pastTime'
  * @param time 开始时间 格式为：'2021-01-28 00:00'
  * @returns xx天xx小时xx分钟xx秒
  */
-export const pastTime: pastTimeInterface = (time: string, format: string = 'DD天HH小时MM分钟SS秒'): string => {
+export const pastTime: pastTimeInterface = (
+  time: string,
+  format: string = 'DD天HH小时MM分钟SS秒'
+): string => {
   const now: number = new Date().getTime()
   const target: number = new Date(time.replace(/-/g, '/')).getTime()
   const diff: number = now - target

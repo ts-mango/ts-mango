@@ -6,7 +6,9 @@ import type { mergeArrayRepeatInterface } from './type/mergeArrayRepeat'
  * @param target 数组元素
  * @returns 将多个数组合并后并去重
  */
-export const mergeArrayRepeat: mergeArrayRepeatInterface = (...target: any[]): unknown[] => {
+export const mergeArrayRepeat: mergeArrayRepeatInterface = (
+  ...target: any[]
+): unknown[] => {
   if (target.length === 0) {
     return []
   }

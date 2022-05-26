@@ -10,11 +10,16 @@
   "scripts": {
     "play": "pnpm run play -C packages/play dev",
     "build:play": "pnpm run play -C packages/play build",
-    "vitest": "^0.12.4"
+    "vitest": "^0.12.4",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "@ts-mango/mango": "workspace:*",
-    "@ts-mango/type": "workspace:*"
+    "@ts-mango/type": "workspace:*",
+    "@ts-mango/utils": "workspace:*",
+    "vue": "^3.2.25",
+    "vitest": "^0.12.4",
+    "prettier": "^2.6.2"
   },
   "keywords": [],
   "author": "",

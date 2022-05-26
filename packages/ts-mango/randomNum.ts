@@ -7,6 +7,9 @@ import type { randomNumInterface } from './type/randomNum'
  * @param max 随机数范围的最大值
  * @returns 指定参数范围的随机数
  */
-export const randomNum: randomNumInterface = (max: number, min: number): number => {
+export const randomNum: randomNumInterface = (
+  max: number,
+  min: number
+): number => {
   return Math.floor(Math.random() * (max - min)) + min
 }
