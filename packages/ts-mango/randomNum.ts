@@ -1,4 +1,4 @@
-import type { randomNumInterface } from './type/randomNum'
+import type { randomNumInterface } from '@ts-mango/type'
 
 /**
  * 获取指定参数范围的随机数

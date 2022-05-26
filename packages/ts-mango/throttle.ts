@@ -1,4 +1,4 @@
-import type { throttleInterface } from './type/throttle'
+import type { throttleInterface } from '@ts-mango/type'
 
 /**
  * 节流

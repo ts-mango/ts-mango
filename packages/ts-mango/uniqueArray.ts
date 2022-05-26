@@ -1,5 +1,5 @@
-import type { uniqueArrayInterface } from './type/uniqueArray'
-import { onTypeError } from './utils/onError'
+import type { uniqueArrayInterface } from '@ts-mango/type'
+import { onTypeError } from '@ts-mango/utils'
 import { getType } from './getType'
 
 /**

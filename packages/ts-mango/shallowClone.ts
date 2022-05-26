@@ -1,6 +1,6 @@
-import type { shallowCloneInterface } from './type/shallowClone'
+import type { shallowCloneInterface } from '@ts-mango/type'
 import { getType } from './getType'
-import { onTypeError } from './utils/onError'
+import { onTypeError } from '@ts-mango/utils'
 
 /**
  * 浅克隆

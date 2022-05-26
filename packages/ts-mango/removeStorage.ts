@@ -1,4 +1,4 @@
-import type { removeStorageInterface } from './type/removeStorage'
+import type { removeStorageInterface } from '@ts-mango/type'
 
 /**
  * 删除本地存储数据

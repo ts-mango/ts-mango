@@ -1,4 +1,4 @@
-import type { pastTimeInterface, configInterface } from './type/pastTime'
+import type { pastTimeInterface } from '@ts-mango/type'
 
 /**
  * 计算从一个时间到现在过去多久

@@ -1,4 +1,4 @@
-import type { setStorageInterface } from './type/setStorage'
+import type { setStorageInterface } from '@ts-mango/type'
 
 /**
  * 添加本地存储

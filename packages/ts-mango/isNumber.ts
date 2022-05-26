@@ -1,4 +1,4 @@
-import type { isNumberInterface } from './type/isNumber'
+import type { isNumberInterface } from '@ts-mango/type'
 import { getType } from './getType'
 
 /**

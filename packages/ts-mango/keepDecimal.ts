@@ -1,5 +1,5 @@
-import type { keepDecimalInterface } from './type/keepDecimal'
-import { onTypeError } from './utils/onError'
+import type { keepDecimalInterface } from '@ts-mango/type'
+import { onTypeError } from '@ts-mango/utils'
 import { isNumber } from './isNumber'
 
 /**

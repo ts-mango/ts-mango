@@ -1,4 +1,4 @@
-import { isArrHaveInterface } from './type/isArrHave'
+import type { isArrHaveInterface } from '@ts-mango/type'
 
 /**
  * 检测一个数组上是否存在某个值

@@ -1,4 +1,4 @@
-import type { randomColorInterface } from './type/randomColor'
+import type { randomColorInterface } from '@ts-mango/type'
 
 /**
  * 生成随机颜色

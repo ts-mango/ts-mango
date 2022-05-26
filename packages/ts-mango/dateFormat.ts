@@ -1,8 +1,6 @@
-import type { dateFormatInterface } from './type/dateFormat'
-import type { configInterface } from './type/dateConfig'
+import type { dateFormatInterface } from '@ts-mango/type'
 import { getType } from './getType'
-import { onTypeError } from './utils/onError'
-import { dateConfig } from './utils/dateConfig'
+import { onTypeError, dateConfig } from '@ts-mango/utils'
 
 /**
  * 获取当前的时间

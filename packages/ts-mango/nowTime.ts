@@ -1,6 +1,5 @@
-import type { configInterface } from './type/dateConfig'
-import type { nowTimeInterface } from './type/nowTime'
-import { dateConfig } from './utils/dateConfig'
+import type { nowTimeInterface } from '@ts-mango/type'
+import { dateConfig } from '@ts-mango/utils'
 
 /**
  * 将时间戳转换为指定时间格式

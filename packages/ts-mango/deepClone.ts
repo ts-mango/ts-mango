@@ -1,5 +1,5 @@
-import type { deepCloneInterface } from './type/deepClone'
-import { onTypeError } from './utils/onError'
+import type { deepCloneInterface } from '@ts-mango/type'
+import { onTypeError } from '@ts-mango/utils'
 
 /**
  * 深克隆

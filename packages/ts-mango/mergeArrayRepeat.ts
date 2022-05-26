@@ -1,4 +1,4 @@
-import type { mergeArrayRepeatInterface } from './type/mergeArrayRepeat'
+import type { mergeArrayRepeatInterface } from '@ts-mango/type'
 
 /**
  * 将多个数组合并成一个新的数组，并去重

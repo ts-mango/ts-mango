@@ -1,5 +1,4 @@
 {
-  "name": "ts-mango",
   "private": true,
   "workspaces": [
     "packages/*"
