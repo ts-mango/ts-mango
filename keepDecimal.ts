@@ -1,5 +1,5 @@
-import type { keepDecimalInterface } from './type/keepDecimal'
-import { onTypeError } from './utils/onError'
+import type { keepDecimalInterface } from './type'
+import { onTypeError } from './utils'
 import { isNumber } from './isNumber'
 
 /**

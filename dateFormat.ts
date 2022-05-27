@@ -1,8 +1,6 @@
 import type { dateFormatInterface } from './type'
-import type { configInterface } from './type'
 import { getType } from './getType'
-import { onTypeError } from './utils'
-import { dateConfig } from './utils'
+import { onTypeError, dateConfig } from './utils'
 
 /**
  * 获取当前的时间

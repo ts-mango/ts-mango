@@ -1,5 +1,5 @@
-import type { deepCloneInterface } from './type/deepClone'
-import { onTypeError } from './utils/onError'
+import type { deepCloneInterface } from './type'
+import { onTypeError } from './utils'
 
 /**
  * 深克隆

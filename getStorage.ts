@@ -1,4 +1,4 @@
-import type { getStorageInterface } from './type/getStorage'
+import type { getStorageInterface } from './type'
 
 /**
  * 获取本地存储

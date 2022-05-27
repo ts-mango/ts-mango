@@ -1,4 +1,4 @@
-import type { isTfInterface } from './type/isTf'
+import type { isTfInterface } from './type'
 
 /**
  * 检测一个值是 true 还是 false

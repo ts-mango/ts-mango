@@ -1,6 +1,5 @@
-import type { configInterface } from './type/dateConfig'
-import type { nowTimeInterface } from './type/nowTime'
-import { dateConfig } from './utils/dateConfig'
+import type { configInterface, nowTimeInterface } from './type'
+import { dateConfig } from './utils'
 
 /**
  * 将时间戳转换为指定时间格式

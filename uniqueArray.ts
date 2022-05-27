@@ -1,4 +1,4 @@
-import type { uniqueArrayInterface } from './type/uniqueArray'
+import type { uniqueArrayInterface } from './type'
 import { onTypeError } from './utils/onError'
 import { getType } from './getType'
 

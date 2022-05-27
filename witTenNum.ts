@@ -1,4 +1,4 @@
-import type { witTenNumInterface } from './type/witTenNum'
+import type { witTenNumInterface } from './type'
 
 /**
  * 获取 0-9 的随机数

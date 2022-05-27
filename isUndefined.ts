@@ -1,4 +1,4 @@
-import type { isUndefinedInterface } from './type/isUndefined'
+import type { isUndefinedInterface } from './type'
 import { getType } from './getType'
 
 /**

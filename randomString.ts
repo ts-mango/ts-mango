@@ -1,4 +1,4 @@
-import type { randomStringInterface } from './type/randomString'
+import type { randomStringInterface } from './type'
 
 /**
  * 生成随机字符串

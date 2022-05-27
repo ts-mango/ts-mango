@@ -1,6 +1,6 @@
-import type { onLineInterface } from './type/onLine'
+import type { onLineInterface } from './type'
 import { isUndefined } from './isUndefined'
-import { onError } from './utils/onError'
+import { onError } from './utils'
 
 /**
  * 检测当前是否处于联网状态

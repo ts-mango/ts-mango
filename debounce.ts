@@ -1,4 +1,4 @@
-import type { debounceInterface } from './type/debounce'
+import type { debounceInterface } from './type'
 
 /**
  * 防抖

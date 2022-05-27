@@ -1,4 +1,4 @@
-import type { shallowCloneInterface } from './type/shallowClone'
+import type { shallowCloneInterface } from './type'
 import { getType } from './getType'
 import { onTypeError } from './utils/onError'
 

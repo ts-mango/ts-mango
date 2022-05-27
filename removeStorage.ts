@@ -1,4 +1,4 @@
-import type { removeStorageInterface } from './type/removeStorage'
+import type { removeStorageInterface } from './type'
 
 /**
  * 删除本地存储数据
