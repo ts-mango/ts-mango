@@ -3,11 +3,11 @@
 </template>
 
 <script lang="ts" setup>
-  import { ref } from 'vue'
-  import tsmango from '@ts-mango/mango'
+import { ref } from 'vue'
+import tsmango from '../../index'
 
-  const color = ref('')
-  function change() {
-    color.value = tsmango.randomColor()
-  }
+const color = ref('')
+function change() {
+  color.value = tsmango.randomColor()
+}
 </script>

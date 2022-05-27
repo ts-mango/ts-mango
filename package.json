@@ -1,30 +1,21 @@
 {
-  "private": true,
-  "workspaces": [
-    "packages/*",
-    "docs",
-    "play"
+  "name": "tsmango",
+  "version": "1.0.7",
+  "description": "TsMango is a utility function library written in typescript",
+  "main": "index.ts",
+  "keywords": [
+    "utils",
+    "TsMango",
+    "TypeScript"
   ],
-  "engines": {
-    "node": ">= 16"
+  "author": {
+    "name": "tyh2001",
+    "url": "https://tianyuhao.cn"
   },
-  "scripts": {
-    "dev:docs": "pnpm run -C docs dev",
-    "build:docs": "pnpm run -C docs build",
-    "play": "pnpm run -C play dev",
-    "build:play": "pnpm run -C packages/play build",
-    "test": "vitest",
-    "prettier": "prettier --write ."
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tyh2001/TsMango/issues"
   },
-  "dependencies": {
-    "@ts-mango/mango": "workspace:*",
-    "@ts-mango/type": "workspace:*",
-    "@ts-mango/utils": "workspace:*",
-    "vue": "^3.2.25",
-    "vitest": "^0.12.4",
-    "prettier": "^2.6.2"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "homepage": "https://tianyuhao.cn/mango",
+  "repository": "https://github.com/Tyh2001/TsMango"
 }
