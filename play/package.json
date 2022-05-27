@@ -1,5 +1,5 @@
 {
-  "name": "play",
+  "name": "@ts-mango/play",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
