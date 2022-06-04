@@ -29,6 +29,12 @@
     padding: 6px 0;
   }
 
+  .link .link-text {
+    padding: 6px 10px;
+    border-left: 4px solid transparent;
+    border-radius: 4px;
+  }
+
   @media (min-width: 960px) {
     .link {
       padding: 4px 0;
