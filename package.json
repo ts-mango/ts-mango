@@ -17,5 +17,16 @@
     "url": "https://github.com/Tyh2001/TsMango/issues"
   },
   "homepage": "https://tianyuhao.cn/mango",
-  "repository": "https://github.com/Tyh2001/TsMango"
+  "repository": "https://github.com/Tyh2001/TsMango",
+  "dependencies": {
+    "@commitlint/config-conventional": "^16.2.4"
+  },
+  "devDependencies": {
+    "git-cz": "^4.8.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/git-cz"
+    }
+  }
 }
