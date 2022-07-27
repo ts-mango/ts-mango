@@ -1,7 +1,6 @@
 ---
 title: TsMango
-sidebar: false
-page: true
+layout: home
 ---
 
 <Home />

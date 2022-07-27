@@ -7,9 +7,7 @@
     "serve": "vitepress serve docs"
   },
   "dependencies": {
-    "vitepress": "^0.22.4",
-    "@vueuse/core": "^7.3.0",
-    "shiki": "^0.9.15",
-    "vue": "^3.2.25"
+    "vitepress": "1.0.0-alpha.4",
+    "vue": "^3.2.33"
   }
 }

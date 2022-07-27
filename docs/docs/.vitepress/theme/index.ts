@@ -1,9 +1,6 @@
-import { VPTheme } from '../../../src/index'
-import { h } from 'vue'
+import DefaultTheme from 'vitepress/theme'
 
 export default {
-  ...VPTheme,
-  Layout() {
-    return h(VPTheme.Layout, null, {})
-  }
+  ...DefaultTheme,
+  enhanceApp({ app }) { }
 }
