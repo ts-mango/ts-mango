@@ -27,7 +27,7 @@ export default defineConfig({
     ],
     logo: 'https://tianyuhao.cn/mango/images/mango.svg',
     editLink: {
-      pattern: 'https://github.com/ts-mango/ts-mango/blob/master/docs/:path'
+      pattern: 'https://github.com/ts-mango/ts-mango/blob/master/docs/docs/:path'
     }
   }
 })
