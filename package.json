@@ -1,32 +1,22 @@
 {
-  "name": "tsmango",
-  "version": "1.0.7",
-  "description": "TsMango is a utility function library written in typescript",
-  "main": "index.ts",
-  "keywords": [
-    "utils",
-    "TsMango",
-    "TypeScript"
-  ],
-  "author": {
-    "name": "tyh2001",
-    "url": "https://tianyuhao.cn"
+  "name": "vitepress-template",
+  "scripts": {
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "serve": "vitepress serve src",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tyh2001/TsMango/issues"
-  },
-  "homepage": "https://tianyuhao.cn/mango",
-  "repository": "https://github.com/Tyh2001/TsMango",
   "dependencies": {
-    "@commitlint/config-conventional": "^16.2.4"
+    "sass": "^1.54.9",
+    "vitepress": "1.0.0-alpha.13",
+    "vue": "^3.2.33"
   },
   "devDependencies": {
-    "git-cz": "^4.8.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/git-cz"
-    }
+    "eslint": "^8.24.0",
+    "eslint-config-fighting": "^0.2.1",
+    "fighting-design": "0.7.0-alpha.1",
+    "vite": "^3.0.9"
   }
 }
