@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { shallowClone } from 'tsmango'
+import { shallowClone } from 'ts-mango'
 ```
 
 ## 介绍
@@ -21,7 +21,7 @@ import { shallowClone } from 'tsmango'
 ## 例子
 
 ```ts
-import { shallowClone } from 'tsmango'
+import { shallowClone } from 'ts-mango'
 
 const obj = {
   name: 'admin',

@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { pastTime } from 'tsmango'
+import { pastTime } from 'ts-mango'
 ```
 
 ## 介绍
@@ -24,7 +24,7 @@ import { pastTime } from 'tsmango'
 ## 例子
 
 ```ts
-import { pastTime } from 'tsmango'
+import { pastTime } from 'ts-mango'
 
 console.log(pastTime('2022-5-2 12:20')) // 9天3小时26分钟35秒
 console.log(pastTime('1990-5')) // 11698天16小时47分钟12秒

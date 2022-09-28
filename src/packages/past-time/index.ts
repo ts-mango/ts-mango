@@ -1,11 +1,9 @@
-import type { pastTimeInterface, configInterface } from './type'
-
 /**
  * 计算从一个时间到现在过去多久
  * @param time 开始时间 格式为：'2021-01-28 00:00'
  * @returns xx天xx小时xx分钟xx秒
  */
-export const pastTime: pastTimeInterface = (time: string, format: string = 'DD天HH小时MM分钟SS秒'): string => {
+export const pastTime = (time: string, format: string = 'DD天HH小时MM分钟SS秒'): string => {
   const now: number = new Date().getTime()
   const target: number = new Date(time.replace(/-/g, '/')).getTime()
   const diff: number = now - target
