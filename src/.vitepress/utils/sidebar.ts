@@ -1,11 +1,11 @@
 export const sidebar = {
-  '/docs/': [
+  '/packages/': [
     {
-      text: '快速上手',
-      link: '/docs/hello',
+      text: '类型',
+      link: '/packages/is-array/index',
       items: [
-        { text: 'hello', link: '/docs/hello' },
-        { text: '欢迎使用', link: '/docs/welcome' }
+        { text: 'isArray', link: '/packages/is-array/index' },
+        { text: 'getType', link: '/packages/get-type/index' },
       ]
     }
   ]
