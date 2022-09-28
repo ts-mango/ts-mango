@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { randomColor } from 'tsmango'
+import { randomColor } from 'ts-mango'
 ```
 
 ## 介绍
@@ -27,7 +27,7 @@ import { randomColor } from 'tsmango'
 
 <script lang="ts" setup>
   import { ref } from 'vue'
-  import { randomColor } from 'tsmango'
+  import { randomColor } from 'ts-mango'
 
   const color = ref('')
   function change() {

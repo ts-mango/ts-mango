@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { isUndefined } from 'tsmango'
+import { isUndefined } from 'ts-mango'
 ```
 
 ## 介绍
@@ -21,7 +21,7 @@ import { isUndefined } from 'tsmango'
 ## 例子
 
 ```ts
-import { isUndefined } from 'tsmango'
+import { isUndefined } from 'ts-mango'
 
 console.log(isUndefined(undefined)) // true
 console.log(isUndefined(123)) // false

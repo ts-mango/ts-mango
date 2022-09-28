@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { isOnLine } from 'tsmango'
+import { isOnLine } from 'ts-mango'
 ```
 
 ## 介绍
@@ -21,7 +21,7 @@ import { isOnLine } from 'tsmango'
 ## 例子
 
 ```ts
-import { isOnLine } from 'tsmango'
+import { isOnLine } from 'ts-mango'
 
 console.log(isOnLine()) // true
 ```
