@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { isString } from 'tsmango'
+import { isString } from 'ts-mango'
 ```
 
 ## 介绍
@@ -21,7 +21,7 @@ import { isString } from 'tsmango'
 ## 例子
 
 ```ts
-import { isString } from 'tsmango'
+import { isString } from 'ts-mango'
 
 console.log(isString('123')) // true
 console.log(isString({})) // false
