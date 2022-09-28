@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { removeStorage } from 'tsmango'
+import { removeStorage } from 'ts-mango'
 ```
 
 ## 介绍
@@ -21,7 +21,7 @@ import { removeStorage } from 'tsmango'
 ## 例子
 
 ```ts
-import { removeStorage } from 'tsmango'
+import { removeStorage } from 'ts-mango'
 
-console.log(removeStorage('name'))
+removeStorage('name')
 ```

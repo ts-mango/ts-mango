@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { debounce } from 'tsmango'
+import { debounce } from 'ts-mango'
 ```
 
 ## 介绍
@@ -29,9 +29,9 @@ import { debounce } from 'tsmango'
 
 <script lang="ts" setup>
   import { ref } from 'vue'
-  import { debounce } from 'tsmango'
+  import { debounce } from 'ts-mango'
 
-  const text = ref('tsmango')
+  const text = ref('ts-mango')
 
   interface updateInterface {
     (e: Event): void
