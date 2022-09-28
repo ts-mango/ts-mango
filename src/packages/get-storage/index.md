@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { getStorage } from 'tsmango'
+import { getStorage } from 'ts-mango'
 ```
 
 ## 介绍
@@ -21,7 +21,7 @@ import { getStorage } from 'tsmango'
 ## 例子
 
 ```ts
-import { getStorage } from 'tsmango'
+import { getStorage } from 'ts-mango'
 
 console.log(getStorage('name'))
 ```
