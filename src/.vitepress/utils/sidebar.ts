@@ -16,10 +16,28 @@ export const sidebar = {
     },
     {
       text: '数组',
-      link: '/packages/array-deduct/index',
+      // link: '/packages/array-deduct/index',
       items: [
         { text: 'arrayDeduct', link: '/packages/array-deduct/index' },
         { text: 'arrayMereDeduct', link: '/packages/array-mere-deduct/index' },
+      ]
+    },
+    {
+      text: '时间',
+      items: [
+        { text: 'currentDate 获取当前的时间', link: '/packages/current-date/index' }
+      ]
+    },
+    {
+      text: '函数',
+      items: [
+        { text: 'debounce 防抖', link: '/packages/debounce/index' }
+      ]
+    },
+    {
+      text: '对象',
+      items: [
+        { text: 'deepClone 深克隆', link: '/packages/deep-clone/index' }
       ]
     }
   ]
