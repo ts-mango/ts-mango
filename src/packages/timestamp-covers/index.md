@@ -1,14 +1,14 @@
-# nowTime
+# timestampCovers
 
 ## 引入
 
 ```ts
-import { nowTime } from 'tsmango'
+import { timestampCovers } from 'tsmango'
 ```
 
 ## 介绍
 
-`nowTime` 可以将某个时间戳转换为正常的时间格式
+`timestampCovers` 可以将某个时间戳转换为正常的时间格式
 
 ## 参数
 
@@ -24,8 +24,8 @@ import { nowTime } from 'tsmango'
 ## 例子
 
 ```ts
-import { nowTime } from 'tsmango'
+import { timestampCovers } from 'tsmango'
 
-console.log(nowTime(324242432432)) // 1980-04-11 03:20:32
-console.log(nowTime(1213242134434, 'YYYY/MM/DD')) // 2008/06/12
+console.log(timestampCovers(324242432432)) // 1980-04-11 03:20:32
+console.log(timestampCovers(1213242134434, 'YYYY/MM/DD')) // 2008/06/12
 ```

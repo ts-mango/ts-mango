@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { keepDecimal } from 'tsmango'
+import { keepDecimal } from 'ts-mango'
 ```
 
 ## 介绍
@@ -22,7 +22,7 @@ import { keepDecimal } from 'tsmango'
 ## 例子
 
 ```ts
-import { keepDecimal } from 'tsmango'
+import { keepDecimal } from 'ts-mango'
 
 console.log(keepDecimal(20.12121, 2)) // 20.12
 ```
