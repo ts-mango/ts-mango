@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { isObject } from 'tsmango'
+import { isObject } from 'ts-mango'
 ```
 
 ## 介绍
@@ -21,7 +21,7 @@ import { isObject } from 'tsmango'
 ## 例子
 
 ```ts
-import { isObject } from 'tsmango'
+import { isObject } from 'ts-mango'
 
 console.log(isObject({})) // true
 console.log(isObject('123')) // false
