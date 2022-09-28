@@ -1,12 +1,10 @@
-import type { configInterface } from '../type/dateConfig'
-
 /**
  * 返回日期对象
  * @param date 日期对象
  * @returns 日期对象数组
  */
-export const dateConfig = (date: Date): configInterface => {
-  const config: configInterface = {
+export const dateConfig = (date: Date) => {
+  const config = {
     'YYYY': date.getFullYear(),
     'MM': date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1,
     'DD': date.getDate() < 10 ? '0' + date.getDate() : date.getDate(),
