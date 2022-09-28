@@ -9,7 +9,7 @@ import { sidebar } from './utils/sidebar'
  */
 
 const config = defineConfig({
-  title: 'vitepress-template',
+  title: 'ts-mango',
   lastUpdated: true,
 
   themeConfig: {
@@ -17,7 +17,7 @@ const config = defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/Tyh2001/vitepress-template'
+        link: 'https://github.com/ts-mango/ts-mango'
       }
     ],
     nav,

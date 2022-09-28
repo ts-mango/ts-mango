@@ -1,6 +1,5 @@
 import type { UserConfigExport, Plugin } from 'vite'
 
-// https://github.com/vuejs/vitepress/discussions/1015#discussioncomment-3177860
 const NavLinkPatch = (): Plugin => ({
   name: 'override-target-blank',
   enforce: 'pre',
