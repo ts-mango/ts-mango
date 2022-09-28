@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { deepClone } from 'tsmango'
+import { deepClone } from 'ts-mango'
 ```
 
 ## 介绍
@@ -21,12 +21,12 @@ import { deepClone } from 'tsmango'
 ## 例子
 
 ```ts
-import { deepClone } from 'tsmango'
+import { deepClone } from 'ts-mango'
 
 const obj = {
   name: 'admin',
   age: 12,
-  arr: [1, 2, 3, 4]
+  arr: [1, 2, 3, 4],
 }
 
 const clone = deepClone(obj)
