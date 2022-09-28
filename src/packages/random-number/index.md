@@ -1,14 +1,14 @@
-# randomNum
+# randomNumber
 
 ## 引入
 
 ```ts
-import { randomNum } from 'tsmango'
+import { randomNumber } from 'ts-mango'
 ```
 
 ## 介绍
 
-`randomNum` 可以获取指定范围内的随机数
+`randomNumber` 可以获取指定范围内的随机数
 
 ## 参数
 
@@ -24,7 +24,7 @@ import { randomNum } from 'tsmango'
 ## 例子
 
 ```ts
-import { randomNum } from 'tsmango'
+import { randomNumber } from 'ts-mango'
 
-console.log(randomNum(10, 20)) // 12
+console.log(randomNumber(10, 20)) // 12
 ```
