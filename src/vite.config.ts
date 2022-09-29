@@ -1,21 +1,10 @@
-import type { UserConfigExport, Plugin } from 'vite'
-
-const NavLinkPatch = (): Plugin => ({
-  name: 'override-target-blank',
-  enforce: 'pre',
-  transform: (code, id) => {
-    if (id.endsWith('VPLink.vue')) {
-      return code.replace('_blank', '_self')
-    }
-  }
-})
+import type { UserConfigExport } from 'vite'
 
 export default (): UserConfigExport => {
   return {
     server: {
       port: 1216
     },
-    plugins: [NavLinkPatch()],
     optimizeDeps: {
       exclude: ['vitepress']
     },
@@ -25,7 +14,7 @@ export default (): UserConfigExport => {
           {
             postcssPlugin: 'internal:charset-removal',
             AtRule: {
-              charset: (atRule) => {
+              charset: (atRule): void => {
                 if (atRule.name === 'charset') {
                   atRule.remove()
                 }

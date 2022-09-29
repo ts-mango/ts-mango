@@ -3,6 +3,6 @@
  * @param target 要检测的值
  * @returns boolean
  */
-export const judgeTrue = (target: any): boolean => {
+export const judgeTrue = (target: unknown): boolean => {
   return !!target
 }

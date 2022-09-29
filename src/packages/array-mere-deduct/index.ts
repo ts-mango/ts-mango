@@ -4,7 +4,7 @@
  * @param target 数组元素
  * @returns 将多个数组合并后并去重
  */
-export const arrayMereDeduct = (...target: any[]): unknown[] => {
+export const arrayMereDeduct = (...target): unknown[] => {
   if (target.length === 0) {
     return []
   }

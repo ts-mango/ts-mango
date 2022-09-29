@@ -4,8 +4,9 @@
  * @param delay 时间
  * @returns Function
  */
-export const debounce = (handle: Function, delay: number = 200): Function => {
-  let timer: any = null
+export const debounce = (handle: Function, delay = 200): Function => {
+  let timer: NodeJS.Timeout
+
   return function (): void {
     if (timer) {
       clearTimeout(timer)

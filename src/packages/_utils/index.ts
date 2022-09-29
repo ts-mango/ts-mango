@@ -1,2 +1,2 @@
-export { dateConfig } from './dateConfig'
-export { onTypeError, onError } from './onError'
+export { dateConfig } from './date-config'
+export { onTypeError, onError } from './on-error'

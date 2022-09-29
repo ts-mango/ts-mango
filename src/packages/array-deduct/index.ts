@@ -1,4 +1,4 @@
-import { getType } from '../get-type'
+// import { getType } from '../get-type'
 
 /**
  * 数组去重

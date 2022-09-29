@@ -4,7 +4,7 @@
  * @param target 要检测的值
  * @returns boolean
  */
-export const isArrayHave = (arr: any[], target: any): boolean => {
+export const isArrayHave = (arr: unknown[], target: unknown): boolean => {
   if (arr.length === 0) {
     return false
   }
