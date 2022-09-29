@@ -11,11 +11,13 @@
     "build:umd": "vite build --config vite.config.umd.ts",
     "move": "node script/move.ts",
     "serve": "vitepress serve src",
+    "test": "vitest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "license": "ISC",
   "dependencies": {
+    "happy-dom": "^6.0.4",
     "rimraf": "^3.0.2",
     "vitepress": "1.0.0-alpha.9",
     "vitest": "^0.23.4",
