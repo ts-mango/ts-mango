@@ -1,13 +1,5 @@
-<template>
-  <button @click="change" :style="{ color }">点击切换颜色</button>
-</template>
+<script lang="ts" setup></script>
 
-<script lang="ts" setup>
-import { ref } from 'vue'
-import tsmango from '../../index'
+<template></template>
 
-const color = ref('')
-function change() {
-  color.value = tsmango.randomColor()
-}
-</script>
+<style lang="scss" scoped></style>
