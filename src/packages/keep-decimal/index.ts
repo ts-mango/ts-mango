@@ -6,7 +6,7 @@
  * @param no 保留位数
  * @returns 转换结果
  */
-export const keepDecimal = (num: number, no: number = 2): number => {
+export const keepDecimal = (num: number, no = 2): number => {
   // if (!isNumber(num)) {
   //   onTypeError('keepDecimal', 'num is not a number')
   // }

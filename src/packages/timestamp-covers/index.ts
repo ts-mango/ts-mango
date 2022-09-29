@@ -12,7 +12,6 @@ const dateConfig = (date: Date) => {
     'mm': date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes(),
     'ss': date.getSeconds() < 10 ? '0' + date.getSeconds() : date.getSeconds()
   }
-  console.log(config)
   return config
 }
 
@@ -22,7 +21,7 @@ const dateConfig = (date: Date) => {
  * @param format 日期格式
  * @returns 指定日期格式
  */
-export const timestampCovers = (times: number | string, format: string = 'YYYY-MM-DD HH:mm:ss'): string => {
+export const timestampCovers = (times: number | string, format = 'YYYY-MM-DD HH:mm:ss'): string => {
   const date: Date = new Date(parseInt(times.toString()))
   const config: any = dateConfig(date)
   for (const key in config) {

@@ -6,8 +6,8 @@
  */
 export const randomString = (length: number, chars?: string): string => {
   chars = chars || '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
-  let res: string = ''
-  for (let i: number = 0; i < length; i++) {
+  let res = ''
+  for (let i = 0; i < length; i++) {
     res += chars[Math.floor(Math.random() * chars.length)]
   }
   return res
