@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "TsMango is a utility function library written in typescript",
   "main": "index.js",
+  "types": "index.d.ts",
   "keywords": [
     "utils",
     "TsMango",

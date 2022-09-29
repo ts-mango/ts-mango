@@ -5,6 +5,7 @@
     "clean": "rimraf dist",
     "dev:docs": "vitepress dev src",
     "play": "pnpm run -C play dev",
+    "play:build": "pnpm run -C play build",
     "build::docs": "vitepress build src",
     "build": "pnpm clean && pnpm build:es && pnpm build:umd && pnpm move",
     "build:es": "vite build --config vite.config.es.ts",
@@ -19,6 +20,7 @@
   "dependencies": {
     "happy-dom": "^6.0.4",
     "rimraf": "^3.0.2",
+    "vite-plugin-dts": "^1.6.1",
     "vitepress": "1.0.0-alpha.9",
     "vitest": "^0.23.4",
     "vue": "^3.2.33"
