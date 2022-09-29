@@ -8,7 +8,7 @@ export const isArrayHave = (arr: any[], target: any): boolean => {
   if (arr.length === 0) {
     return false
   }
-  for (let i: number = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (arr[i] === target) {
       return true
     }

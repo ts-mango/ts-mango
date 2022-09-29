@@ -22,8 +22,9 @@ export const sidebar = {
     {
       text: '数组',
       items: [
-        { text: 'arrayDeduct', link: '/packages/array-deduct/index' },
-        { text: 'arrayMereDeduct', link: '/packages/array-mere-deduct/index' },
+        { text: 'arrayDeduct 数组去重', link: '/packages/array-deduct/index' },
+        { text: 'arrayMereDeduct 数组合并去重', link: '/packages/array-mere-deduct/index' },
+        { text: 'isArrayHave 检测数组中是否存在某个值', link: '/packages/is-array-have/index' },
       ]
     },
     {
@@ -62,6 +63,8 @@ export const sidebar = {
       items: [
         { text: 'removeStorage 移除本地存储', link: '/packages/remove-storage/index' },
         { text: 'setStorage 设置本地存储', link: '/packages/set-storage/index' },
+        { text: 'getStorage 获取本地存储', link: '/packages/get-storage/index' },
+        { text: 'isOnLine 是否联网', link: '/packages/is-onLine/index' },
       ]
     }
   ]
