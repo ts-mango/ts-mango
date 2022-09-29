@@ -1,5 +1,7 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+  import tsMango from '../../src/packages/index'
 
-<template></template>
+  console.log(tsMango)
+</script>
 
-<style lang="scss" scoped></style>
+<template>hello</template>
