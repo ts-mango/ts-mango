@@ -1,7 +1,7 @@
 export const nav = [
-  // {
-  //   text: '文档',
-  //   activeMatch: '/docs/',
-  //   link: '/docs/hello'
-  // }
+  {
+    text: '开始',
+    activeMatch: '/packages/',
+    link: '/packages/get-type/index'
+  }
 ]

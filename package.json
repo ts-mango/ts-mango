@@ -2,16 +2,17 @@
   "name": "ts-mango",
   "private": true,
   "scripts": {
-    "dev": "vitepress dev src",
+    "dev:docs": "vitepress dev src",
     "play": "pnpm run -C play dev",
-    "build": "vitepress build src",
+    "build::docs": "vitepress build src",
+    "build": "vite build --config vite.config.ts",
     "serve": "vitepress serve src",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "license": "ISC",
   "dependencies": {
-    "vitepress": "1.0.0-alpha.13",
+    "vitepress": "1.0.0-alpha.9",
     "vitest": "^0.23.4",
     "vue": "^3.2.33"
   },
