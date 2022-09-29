@@ -6,9 +6,10 @@
     "dev:docs": "vitepress dev src",
     "play": "pnpm run -C play dev",
     "build::docs": "vitepress build src",
-    "build": "pnpm clean && pnpm build:es && pnpm build:umd",
+    "build": "pnpm clean && pnpm build:es && pnpm build:umd && pnpm move",
     "build:es": "vite build --config vite.config.es.ts",
     "build:umd": "vite build --config vite.config.umd.ts",
+    "move": "node script/move.ts",
     "serve": "vitepress serve src",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
