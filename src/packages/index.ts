@@ -1,3 +1,4 @@
+import { version } from './package.json'
 import { isArray } from './is-array'
 import { getType } from './get-type'
 import { isNumber } from './is-number'
@@ -27,6 +28,7 @@ import { getStorage } from './get-storage'
 import { isOnLine } from './is-onLine'
 
 const TsMango = {
+  version,
   isArray,
   getType,
   isNumber,
