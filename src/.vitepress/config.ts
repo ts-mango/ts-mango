@@ -11,6 +11,7 @@ import { sidebar } from './utils/sidebar'
 const config = defineConfig({
   title: 'ts-mango',
   lastUpdated: true,
+  base: '/mango',
 
   themeConfig: {
     lastUpdatedText: '最后更新时间',
