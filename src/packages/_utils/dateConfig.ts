@@ -12,6 +12,5 @@ export const dateConfig = (date: Date) => {
     'mm': date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes(),
     'ss': date.getSeconds() < 10 ? '0' + date.getSeconds() : date.getSeconds()
   }
-  console.log(config)
   return config
 }
