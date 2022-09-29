@@ -6,7 +6,6 @@
     "test": "vitest"
   },
   "dependencies": {
-    "tsmango": "^1.0.5",
     "vitest": "^0.12.4",
     "vue": "^3.2.25"
   },
