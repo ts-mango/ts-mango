@@ -26,13 +26,13 @@ TsMango is a utility function library written in typescript.
 Npm
 
 ```shell
-npm i tsmango
+npm i ts-mango
 ```
 
 Yarn
 
 ```shell
-yarn add tsmango
+yarn add ts-mango
 ```
 
 ## Use
@@ -41,10 +41,10 @@ In vue.js
 
 ```ts
 // Complete introduction
-import TsMango from 'tsmango'
+import TsMango from 'ts-mango'
 TsMango.randomNum()
 
 // Import in as needed
-import { randomNum } from 'tsmango'
+import { randomNum } from 'ts-mango'
 randomNum()
 ```

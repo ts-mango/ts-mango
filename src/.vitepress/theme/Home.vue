@@ -6,10 +6,10 @@
     <p class="title">TsMango</p>
 
     <p align="center">
-      <a href="/packages/is-array/index">
+      <a href="/docs/install">
         <button class="start">Start using</button>
       </a>
-      <a href="https://github.com/Tyh2001/TsMango" target="_back">
+      <a href="https://github.com/ts-mango/ts-mango" target="_back">
         <button>Github</button>
       </a>
     </p>

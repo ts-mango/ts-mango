@@ -15,7 +15,7 @@ export default (): UserConfigExport => {
       })
     ],
     build: {
-      minify: false, // 压缩代码
+      minify: true, // 压缩代码
       outDir: resolve(__dirname, 'dist/'),
       lib: {
         entry: resolve(__dirname, './src/packages/index.ts'),

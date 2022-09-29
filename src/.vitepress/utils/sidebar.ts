@@ -67,5 +67,13 @@ export const sidebar = {
         { text: 'isOnLine 是否联网', link: '/packages/is-onLine/index' },
       ]
     }
+  ],
+  'docs': [
+    {
+      text: '快速上手',
+      items: [
+        { text: '安装', link: '/docs/install' }
+      ]
+    }
   ]
 }

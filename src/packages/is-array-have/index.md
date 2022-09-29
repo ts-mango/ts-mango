@@ -3,7 +3,7 @@
 ## 引入
 
 ```ts
-import { isArrayHave } from 'tsmango'
+import { isArrayHave } from 'ts-mango'
 ```
 
 ## 介绍
@@ -22,7 +22,7 @@ import { isArrayHave } from 'tsmango'
 ## 例子
 
 ```ts
-import { isArrayHave } from 'tsmango'
+import { isArrayHave } from 'ts-mango'
 
 console.log(isArrayHave([1, 2, 3], 3)) // true
 console.log(isArrayHave(['a', 'b', 'c'], 'c')) // true

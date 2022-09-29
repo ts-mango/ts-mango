@@ -1,0 +1,47 @@
+:root {
+  --vp-c-green: rgb(244, 124, 52);
+  --vp-c-brand-dark: rgb(244, 124, 52);
+  --vp-c-bg-alt: #fff;
+}
+
+/* 深色模式侧边栏 */
+.dark {
+  --vp-c-bg-alt: rgb(36, 36, 36);
+}
+
+.sidebar-link-item.active {
+  background: rgba(82, 179, 94, 0.1);
+}
+
+/* 顶部 logo */
+.VPNavBarTitle.has-sidebar {
+  border: none;
+}
+
+/* 左侧选项链接 */
+.VPSidebarGroup .VPLink.link.link {
+  margin: 0;
+  padding: 5px 18px;
+  transition: 0.4s;
+}
+
+.VPSidebarGroup .VPLink.link.link.active {
+  background: lighten(#2d5af1, 39%);
+  border-radius: 6px;
+}
+
+.VPSidebarGroup .VPLink.link.link.active .link-text {
+  font-weight: 600;
+}
+
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* 滚动滑块 */
+::-webkit-scrollbar-thumb {
+  background: #dddddd;
+  border-radius: 6px;
+}
