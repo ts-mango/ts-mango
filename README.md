@@ -37,14 +37,12 @@ yarn add ts-mango
 
 ## Use
 
-In vue.js
-
 ```ts
 // Complete introduction
 import TsMango from 'ts-mango'
-TsMango.randomNum()
+TsMango.isNumber()
 
 // Import in as needed
-import { randomNum } from 'ts-mango'
-randomNum()
+import { isNumber } from 'ts-mango'
+isNumber()
 ```
