@@ -2,17 +2,18 @@ import { defineConfig } from 'vitepress'
 import { nav } from './utils/nav'
 import { sidebar } from './utils/sidebar'
 
-/**
- * 参考：https://vitepress.vuejs.org/config/app-configs.html
- * 
- * 修改这里需要重启项目才可以生效
- */
-
 const config = defineConfig({
   title: 'ts-mango',
   lastUpdated: true,
-  base: '/mango',
-
+  head: [
+    [
+      'link',
+      {
+        rel: 'icon',
+        href: 'https://tianyuhao.cn/mango/images/mango.svg'
+      }
+    ]
+  ],
   themeConfig: {
     lastUpdatedText: '最后更新时间',
     socialLinks: [
