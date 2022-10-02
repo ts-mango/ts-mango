@@ -2,6 +2,7 @@ export const sidebar = {
   '/packages/': [
     {
       text: '类型',
+      link: '/packages/',
       items: [
         { text: 'getType 获取数据类型', link: '/packages/get-type/index' },
         { text: 'isArray 是否为数组', link: '/packages/is-array/index' },
@@ -15,12 +16,14 @@ export const sidebar = {
     },
     {
       text: '数字',
+      link: '/packages/',
       items: [
         { text: 'keepDecimal 保留小数点', link: '/packages/keep-decimal/index' },
       ]
     },
     {
       text: '数组',
+      link: '/packages/',
       items: [
         { text: 'arrayDeduct 数组去重', link: '/packages/array-deduct/index' },
         { text: 'arrayMereDeduct 数组合并去重', link: '/packages/array-mere-deduct/index' },
@@ -29,6 +32,7 @@ export const sidebar = {
     },
     {
       text: '时间',
+      link: '/packages/',
       items: [
         { text: 'currentDate 获取当前的时间', link: '/packages/current-date/index' },
         { text: 'pastTime 计算时间过去了多久', link: '/packages/past-time/index' },
@@ -37,6 +41,7 @@ export const sidebar = {
     },
     {
       text: '函数',
+      link: '/packages/',
       items: [
         { text: 'debounce 防抖', link: '/packages/debounce/index' },
         { text: 'throttle 节流', link: '/packages/throttle/index' },
@@ -44,6 +49,7 @@ export const sidebar = {
     },
     {
       text: '对象',
+      link: '/packages/',
       items: [
         { text: 'shallowClone 浅克隆', link: '/packages/shallow-clone/index' },
         { text: 'deepClone 深克隆', link: '/packages/deep-clone/index' },
@@ -51,6 +57,7 @@ export const sidebar = {
     },
     {
       text: '随机',
+      link: '/packages/',
       items: [
         { text: 'randomColor 随机颜色', link: '/packages/random-color/index' },
         { text: 'randomNine 0~9 随机数', link: '/packages/random-nine/index' },
@@ -60,6 +67,7 @@ export const sidebar = {
     },
     {
       text: '杂项',
+      link: '/packages/',
       items: [
         { text: 'removeStorage 移除本地存储', link: '/packages/remove-storage/index' },
         { text: 'setStorage 设置本地存储', link: '/packages/set-storage/index' },
@@ -71,6 +79,7 @@ export const sidebar = {
   'docs': [
     {
       text: '快速上手',
+      link: '/docs/',
       items: [
         { text: '安装', link: '/docs/install' }
       ]

@@ -3,3 +3,4 @@ node_modules/*
 logo/*
 */dist/*
 script/move.ts
+tsconfig.json

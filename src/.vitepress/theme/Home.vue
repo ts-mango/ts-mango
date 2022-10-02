@@ -1,7 +1,7 @@
 <template>
   <div id="home">
     <p align="center">
-      <img src="https://tianyuhao.cn/mango/images/mango.svg" />
+      <img src="https://tianyuhao.cn/images/mango.svg" />
     </p>
     <p class="title">TsMango</p>
 
