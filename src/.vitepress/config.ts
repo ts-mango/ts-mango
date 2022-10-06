@@ -10,7 +10,7 @@ const config = defineConfig({
       'link',
       {
         rel: 'icon',
-        href: 'https://tianyuhao.cn/mango/images/mango.svg'
+        href: 'https://tianyuhao.cn/images/ts-mango/ts-mango.svg'
       }
     ]
   ],
