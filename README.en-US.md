@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  中文 | <a href="https://github.com/ts-mango/ts-mango/blob/master/README.en-US.md">English</a>
+  <a href="https://github.com/ts-mango/ts-mango/blob/master/README.md">Chinese</a> | English 
 </p>
 
 ## Introduce
