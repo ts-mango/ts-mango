@@ -7,7 +7,7 @@
       />
     </f-text>
 
-    <p class="title">TsMango</p>
+    <f-text size="25px" bold center line-height="70px">TsMango</f-text>
 
     <f-text center>
       <f-button round href="/docs/install" color="#f47c34" text-color="#fff">
@@ -18,7 +18,7 @@
       </f-button>
     </f-text>
 
-    <f-divider />
+    <f-divider color="#eee" />
 
     <f-text bold size="24px">Introduce</f-text>
     <f-text>This is a multifunctional mango.</f-text>
@@ -26,7 +26,7 @@
       TsMango is a utility function library written in typescript.
     </f-text>
 
-    <f-divider />
+    <f-divider color="#eee" />
 
     <f-text bold size="24px">Why TsMango?</f-text>
     <f-text>🔥 Use TypeScript</f-text>
@@ -50,15 +50,6 @@
 
   .f-button-default {
     margin-left: 15px;
-  }
-
-  .title {
-    font-size: 25px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 70px;
-    margin-bottom: 20px;
-    user-select: none;
   }
 
   .f-text {
