@@ -22,6 +22,7 @@ const config = defineConfig({
         link: 'https://github.com/ts-mango/ts-mango'
       }
     ],
+    logo: 'https://tianyuhao.cn/images/ts-mango/ts-mango.svg',
     nav,
     sidebar
   }
