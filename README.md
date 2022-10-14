@@ -7,23 +7,23 @@
   中文 | <a href="https://github.com/ts-mango/ts-mango/blob/master/README.en-US.md">English</a>
 </p>
 
-## Introduce
+## 介绍
 
-This is a multifunctional mango.
+这是一个可爱的芒果。
 
-TsMango is a utility function library written in typescript.
+TsMango 是一个用 typescript 编写的实用函数库.
 
-## Why TsMango?
+## 为什么 TsMango?
 
-- 🔥 Use TypeScript
-- 🔔 Strong type
-- ✅ Import in as needed
-- ✔️ Strict verification
-- 💪 Robust code
-- 🚩 Multi function
-- 🚀 Improve development efficiency
+- 🔥 使用 TypeScript
+- 🔔 强类型
+- ✅ 按需引入
+- ✔️ 严格校验
+- 💪 健壮的代码
+- 🚩 实用函数
+- 🚀 提高开发效率
 
-## Download
+## 下载
 
 Pnpm
 
@@ -43,7 +43,7 @@ Yarn
 yarn add ts-mango
 ```
 
-## Use
+## 实用
 
 ```ts
 // Complete introduction
